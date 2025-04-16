@@ -14,7 +14,7 @@ This survey is designed to assess your understanding and ability to identify, un
 - Experience in complex projects. Deep understanding, ability to conciously resolve difficult problems.
 - Significant experience in larger complex programs. Solves complex problems effortlessly and subconsciously. 
 
-### General Compiler Error Understanding
+### General Programming Error Understanding
 ---
 
 1. **What is the main purpose of a programming error message?**
@@ -113,7 +113,7 @@ This survey is designed to assess your understanding and ability to identify, un
     - A) You're trying to use a list method on a variable that holds an integer.
     - B) You're trying to index an integer like a list.
     - C) You're calling a method that belongs to strings, but on an integer.
-    - D) A method is being used on the wrong object type.
+    - D) You're trying to use a method on the wrong object type.
 
     Correct Answer: A)
 
