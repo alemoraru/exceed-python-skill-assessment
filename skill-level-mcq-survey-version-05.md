@@ -240,7 +240,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-21. **Given the following code snippet, what is the most likely error message one will receive when trying to execute it.**
+21. **Given the following code snippet, what is the most likely error message one will receive when trying to execute it?**
 
     ```python
     x = "5"
@@ -267,7 +267,7 @@ This survey is designed to assess your understanding and ability to identify, un
     foo()
     ```
 
-    - A) `IndentationError: unindent does not match any outer indentation level (on the misindented print statement).` 
+    - A) `IndentationError: unindent does not match any outer indentation level.` 
     - B) `IndentationError: expected an indented block after 'if' statement`  
     - C) `NameError: x is not defined`  
     - D) `TypeError: unsupported operand type(s)`
@@ -283,7 +283,7 @@ This survey is designed to assess your understanding and ability to identify, un
     ```  
 
     - A) Line 1: `SyntaxError: missing closing quote in string`
-    - B) Line 2: `SyntaxError: unexpected EOF while parsing (missing closing parenthesis in the function).`
+    - B) Line 2: `SyntaxError: unexpected EOF while parsing`
     - C) Line 2: `TypeError: unsupported operand type(s) for +.` 
     - D) Line 3: `IndentationError: unexpected indent.`
 
@@ -356,7 +356,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-28. **The snippet below produces an error. Choose the option that correctly fixes the error while maintaing the desired functionality for the function.**
+28. **The snippet below produces an error. Choose the option that correctly fixes the error while maintaining the desired functionality for the function.**
 
     ```python
     def power(base, exponent):
@@ -376,7 +376,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-29. **The `countdown` function from the Python code snippet below that sometimes results in an error. What option corrects the error while preserving the intended logic?**
+29. **The `countdown` function from the Python code snippet below sometimes results in an error. What option corrects the error while preserving the intended logic?**
 
     ```python
     def countdown(n):
@@ -395,7 +395,7 @@ This survey is designed to assess your understanding and ability to identify, un
     - A) Change the base case to `if n < 0:`
     - B) Add a default value for `n` 
     - C) Change the `else` statement to an `elif` statement
-    - D) Replace recursion with a `for` loop
+    - D) Replace recursion with an iterative `for` loop approach
 
     Correct Answer: A)
 
@@ -406,14 +406,14 @@ This survey is designed to assess your understanding and ability to identify, un
     print(double)
     ```
 
-    - A) Add print() around x * 2
-    - B) Replace lambda with `def` to make it work
+    - A) Surround `x * 2` with `print()`
+    - B) Replace `lambda` with `def` to make it work
     - C) Call the `double` function by adding parentheses with an argument 
-    - D) Remove the `lambda` and just write x * 2
+    - D) Remove the `lambda` and just write `x * 2`
 
     Correct Answer: C)
 
-31. **The `first_char` function from the Python code snippet below that sometimes results in an error. What option corrects the error while preserving the intended logic?**
+31. **The `first_char` function from the Python code snippet below sometimes results in an error. What option corrects the error while preserving the intended logic?**
 
     ```python
     def first_char(s):
@@ -821,10 +821,10 @@ This survey is designed to assess your understanding and ability to identify, un
 
 57. **You’re writing a program that uses recursion to calculate the factorial of a number.  The program works correctly for small numbers, but crashes with a `RecursionError` on large inputs. What’s the MOST likely reason for this given the limited context?**
 
-    - A) `RecursionError`s are caused by defining `for` loops incorrectly.
-    - B) The base case is incorrectly written, causing infinite recursion.
-    - C) Python's recursion depth limit has been exceeded, meaning the function called itself too many times.
-    - D) Factorial can’t be computed for large numbers in Python due to memory limits.
+    - A) `RecursionError`s are caused by defining `for` loops incorrectly
+    - B) The base case is incorrectly written, causing infinite recursion
+    - C) Python's recursion depth limit has been exceeded, meaning the function called itself too many times
+    - D) Factorial can’t be computed for large numbers in Python due to memory limits
 
     Correct Answer: C)
 
@@ -858,10 +858,10 @@ This survey is designed to assess your understanding and ability to identify, un
     result = find_max([-10, -5, -3])
     ```
 
-    - A) It incorrectly returns the wrong number instead of the maximum value due to improper initialization of `max_val`.  
-    - B) The for-loop is structured incorrectly as it does not iterate through all of the array's values. 
-    - C) It raises an exception due to negative values being present in the list.
-    - D) There is no logical error present; the code correctly assigns the value of `-3` to the `result` variable.
+    - A) It incorrectly returns the wrong number instead of the maximum value due to improper initialization of `max_val` 
+    - B) The for-loop is structured incorrectly as it does not iterate through all of the array's values 
+    - C) It raises an exception due to negative values being present in the list
+    - D) There is no logical error present; the code correctly assigns the value of `-3` to the `result` variable
 
     Correct Answer: A)
 
@@ -880,10 +880,10 @@ This survey is designed to assess your understanding and ability to identify, un
     print(rect.area())
     ```  
 
-    - A) The attributes `width` and `height` are not prefixed with `self.` inside the `area` method.  
-    - B) The `area` method should accept an extra parameter.  
-    - C) When creating `rect`, it is mandatory to also provide `self`, since the `Rectangle`'s constructor accepts 3 arguments.
-    - D) There is no error; the code is both syntactically and semantically correct.
+    - A) The attributes `width` and `height` are not prefixed with `self.` inside the `area` method
+    - B) The `area` method should accept an extra parameter
+    - C) When creating `rect`, it is mandatory to also provide `self`, since the `Rectangle`'s constructor accepts 3 arguments
+    - D) There is no error; the code is both syntactically and semantically correct
 
     Correct Answer: A)
 
@@ -897,9 +897,9 @@ This survey is designed to assess your understanding and ability to identify, un
     print(result)
     ```
 
-    - A) Change `str1` to an integer before concatenation.
-    - B) Convert `str2` to a string using `str(str2)` before concatenation.
-    - C) Use `+` operator only for numbers, not strings.
+    - A) Change `str1` to an integer before concatenation
+    - B) Convert `str2` to a string using `str(str2)` before concatenation
+    - C) Use the `+` operator only for numbers, not strings
     - D) Replace `print(result)` with `return result`
 
     Correct Answer: B)
@@ -922,10 +922,10 @@ This survey is designed to assess your understanding and ability to identify, un
     result = process_data(data)
     print("The average is:", result)
     ```
-    - A) Remove `try-except` block; it's unnecessary with proper input validation.
-    - B) Convert empty strings to zero before adding to `total`.
-    - C) Ensure division by a non-zero number by checking if `data_list` is not empty before calculating the average.
-    - D) All of the above are valid fixes.
+    - A) Remove `try-except` block; it's unnecessary with proper input validation
+    - B) Convert empty strings to zero before adding to `total`
+    - C) Ensure division by a non-zero number by checking if `data_list` is not empty before calculating the average
+    - D) All of the above are valid fixes
 
     Correct Answer: C)
 
@@ -941,7 +941,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     - A) `KeyError: 'c' because the key does not exist in the dictionary.` 
     - B) `SyntaxError: invalid syntax`
-    - C) `NameError: d is not defined`  
+    - C) `NameError: name 'd' is not defined`  
     - D) `TypeError: 'dict' object is not callable`
 
     Correct Answer: A)
@@ -961,7 +961,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: D)
 
-65. **The following code snippet produces an error and does not compute the sum of a list of values correctly. Pick the answer that fixes both the error and the logic, while maintaing the desired function behavior. The sum that must be printed on line 6 is 10.**
+65. **The following code snippet produces an error and does not compute the sum of a list of values correctly. Pick the answer that fixes both the error and the logic, while maintaining the desired function behavior. The sum that must be printed on line 6 is 10.**
 
     ```python
     1: def sum_list(lst):
@@ -973,7 +973,7 @@ This survey is designed to assess your understanding and ability to identify, un
     ```
 
     - A) Remove the string `"3"` from the list  
-    - B) Convert each element to `int` before addition  
+    - B) Cast each element to an `int` before addition  
     - C) Change the function name to `total_sum`  
     - D) Remove the `for` loop
 
