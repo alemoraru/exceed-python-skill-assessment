@@ -128,7 +128,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-13. **What does this Python error imply?**
+13. **What does the following Python error imply?**
     ```python
     IndentationError: unexpected indent
     ```
@@ -139,7 +139,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-14. **What typically causes this Python error?**
+14. **What typically causes the following Python error?**
     ```python
     TypeError: 'int' object is not subscriptable
     ```
@@ -197,7 +197,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-18. **Given the following code snippet, which is the most likely error message one will receive when trying to execute it.**
+18. **Given the following code snippet, what is the most likely error message one will receive when trying to execute it.**
 
     ```python
     x = [1, 2, 3]
@@ -210,7 +210,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-19. **Given the following code snippet, which is the most likely error message one will receive when trying to execute it.**
+19. **Given the following code snippet, what is the most likely error message one will receive when trying to execute it.**
 
     ```python
     def multiply(a, b):
@@ -240,21 +240,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-21. **Given the following code snippet, which is the most likely error message one will receive when trying to execute it.**
-
-    ```python
-    x = "100a"
-    y = int(x)
-    ```  
-
-    - A) `ValueError: invalid literal for int() with base 10: '100a'`
-    - B) `TypeError: string input cannot be parsed into an integer`  
-    - C) `SyntaxError: invalid syntax` 
-    - D) `NameError: name 'a' is not defined`
-
-    Correct Answer: A)
-
-22. **Given the following code snippet, which is the most likely error message one will receive when trying to execute it.**
+21. **Given the following code snippet, what is the most likely error message one will receive when trying to execute it.**
 
     ```python
     x = "5"
@@ -269,7 +255,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-23. **The following code snippet produces an error and does not execute correctly. Pick the answer that represents the most likely error.**
+22. **The following code snippet produces an error and does not execute correctly. Pick the answer that represents the most likely error.**
 
     ```python
     def foo():
@@ -288,7 +274,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-24. **Read the code snippet below, and identify the error and its location.**
+23. **Read the code snippet below, and identify the error and its location.**
 
     ```python
     1: def greet(name="Stranger"):
@@ -301,7 +287,7 @@ This survey is designed to assess your understanding and ability to identify, un
     - C) Line 2: `TypeError: unsupported operand type(s) for +.` 
     - D) Line 3: `IndentationError: unexpected indent.`
 
-25. **The following code snippet results in an error. Note that the following Python code makes use only of standard libraries. Choose the option that best describes the error.**
+24. **The following code snippet results in an error. Note that the following Python code makes use only of standard libraries. Choose the option that best describes the error.**
 
     ```python
     import maths
@@ -315,7 +301,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-26. **Identify the most likely error message that would be produced by the following code snippet.**
+25. **Identify the most likely error message that would be produced by the following code snippet.**
 
     ```python
     import random
@@ -332,7 +318,7 @@ This survey is designed to assess your understanding and ability to identify, un
 ### Error Resolution
 ---
 
-27. **The following code snippet is known to include an issue that will cause an error when executed. Choose the option that correctly resolves the error while maintaining the desired result.**
+26. **The following code snippet is known to include an issue that will cause an error when executed. Choose the option that correctly resolves the error while maintaining the desired result.**
 
     ```python
     # Print all non-negative integers until 5 included 
@@ -347,7 +333,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-28. **The following code snippet produces an error and does not compute the sum correctly. Pick the answer that fixes both the error and the logic.**
+27. **The following code snippet produces an error and does not compute the sum correctly. Pick the answer that fixes both the error and the logic.**
 
     ```python
     def sum_list(lst):
@@ -370,7 +356,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-29. **The snippet below produces an error. Choose the option that correctly fixes the error while maintaing the desired functionality for the function.**
+28. **The snippet below produces an error. Choose the option that correctly fixes the error while maintaing the desired functionality for the function.**
 
     ```python
     def power(base, exponent):
@@ -390,7 +376,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-30. **The `countdown` function from the Python code snippet below that sometimes results in an error. Which option corrects the error while preserving the intended logic?**
+29. **The `countdown` function from the Python code snippet below that sometimes results in an error. What option corrects the error while preserving the intended logic?**
 
     ```python
     def countdown(n):
@@ -413,7 +399,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-31. **The following Python code does not correctly print the double of a number. Choose the option that best resolves the logical error while maintaining the intended functionality.**
+30. **The following Python code does not correctly print the double of a number. Choose the option that best resolves the logical error while maintaining the intended functionality.**
 
     ```python
     double = lambda x: x * 2
@@ -427,7 +413,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: C)
 
-32. **The `first_char` function from the Python code snippet below that sometimes results in an error. Which option corrects the error while preserving the intended logic?**
+31. **The `first_char` function from the Python code snippet below that sometimes results in an error. What option corrects the error while preserving the intended logic?**
 
     ```python
     def first_char(s):
@@ -450,7 +436,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-33. **The code below is intended to apply a square function to each number within a list, but it raises an error. Choose the correct fix that maintains the logic.**
+32. **The code below is intended to apply a square function to each number within a list, but it raises an error. Choose the correct fix that maintains the logic.**
 
     ```python
     nums = [1, 2, 3]
@@ -469,7 +455,7 @@ This survey is designed to assess your understanding and ability to identify, un
 ### Code Reading / Understanding
 ---
 
-34. **Consider the code snippet below. Which option correctly explains the behavior of the following program?**
+33. **Consider the code snippet below. What option correctly explains the behavior of the following program?**
 
     ```python
     x = int("0")
@@ -485,7 +471,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: C)
 
-35. **Analyze the code snippet below and determine whether it computes the area of a circle correctly.**
+34. **Analyze the code snippet below and determine whether it computes the area of a circle correctly.**
 
     ```python
     import math
@@ -502,7 +488,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-36. **Read the code snippet below and identify which line is logically wrong when computing the area of a rectangle.**
+35. **Read the code snippet below and identify which line is logically wrong when computing the area of a rectangle.**
 
     ```python
     1: def area_rectangle(length, width):
@@ -519,7 +505,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: D)
 
-37. **Read the code snippet below and identify what is the expected output when the code is executed.**
+36. **Read the code snippet below and identify what is the expected output when the code is executed.**
 
     ```python
     def get_greeting():
@@ -536,7 +522,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-38. **Read the code snippet below and identify what will be printed by the code when executed.**
+37. **Read the code snippet below and identify what will be printed by the code when executed.**
 
     ```python
     x = 8
@@ -553,7 +539,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-39. **Read the code snippet below and identify what will be printed by the code when executed.**
+38. **Read the code snippet below and identify what will be printed by the code when executed.**
 
     ```python
     a = 5
@@ -574,7 +560,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: C)
 
-40. **Read the code snippet below and identify what will be printed by the code when executed.**
+39. **Read the code snippet below and identify what will be printed by the code when executed.**
 
     ```python
     a = True or 3/0
@@ -588,7 +574,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-41. **Read the code snippet below and identify what will be printed by the code when executed.**
+40. **Read the code snippet below and identify what will be printed by the code when executed.**
 
     ```python
     a = False and 3/0
@@ -602,7 +588,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-42. **Read the code snippet below and identify what will be printed by the code when executed.**
+41. **Read the code snippet below and identify what will be printed by the code when executed.**
 
     ```python
     a = False
@@ -620,7 +606,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-43. **Read the code snippet below and identify what will be printed by the code when executed.**
+42. **Read the code snippet below and identify what will be printed by the code when executed.**
 
     ```python
     def first():
@@ -647,7 +633,7 @@ This survey is designed to assess your understanding and ability to identify, un
 ### Error Message Comprehension
 ---
 
-44. **Based solely on the error stack trace below, choose the best explanation of the error.**
+43. **Based solely on the error stack trace below, choose the best explanation of the error.**
 
     ```
     Traceback (most recent call last):
@@ -663,7 +649,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-45. **Based solely on the error stack trace below, choose the best explanation of the error.**
+44. **Based solely on the error stack trace below, choose the best explanation of the error.**
 
     ```python
     Traceback (most recent call last):
@@ -679,7 +665,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: C)
 
-46. **Based solely on the error stack trace below, choose the best explanation of the error.**
+45. **Based solely on the error stack trace below, choose the best explanation of the error.**
 
     ```python
     Traceback (most recent call last):
@@ -696,7 +682,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-47. **Based solely on the error stack trace below, choose the best explanation of the error.**
+46. **Based solely on the error stack trace below, choose the best explanation of the error.**
 
     ```python
     Traceback (most recent call last):
@@ -712,7 +698,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-48. **Based solely on the error stack trace below, choose the best explanation of the error.**
+47. **Based solely on the error stack trace below, choose the best explanation of the error.**
 
     ```python
     Traceback (most recent call last):
@@ -728,7 +714,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: D)
 
-49. **Based solely on the error stack trace below, choose the best explanation of the error.**
+48. **Based solely on the error stack trace below, choose the best explanation of the error.**
 
     ```python
     Traceback (most recent call last):
@@ -744,7 +730,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-50. **Based solely on the error stack trace below, choose the best explanation of the error.**
+49. **Based solely on the error stack trace below, choose the best explanation of the error.**
 
     ```python
     Traceback (most recent call last):
@@ -760,7 +746,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: D)
 
-51. **Based solely on the error stack trace below, choose the best explanation of the error.**
+50. **Based solely on the error stack trace below, choose the best explanation of the error.**
 
     ```python
     Traceback (most recent call last):
@@ -779,7 +765,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
 ###  Natural Language Scenarios
 
-52. **You write a program to calculate the average of three numbers entered by the user. The code runs without crashing, but the result is slightly incorrect each time. What is the MOST likely cause for this given the limited context?**
+51. **You write a program to calculate the average of three numbers entered by the user. The code runs without crashing, but the result is slightly incorrect each time. What is the MOST likely cause for this given the limited context?**
 
     - A) A `SyntaxError` caused the wrong result to be stored.
     - B) A `TypeError` occurred when dividing numbers..
@@ -788,7 +774,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: C)
 
-53. **You're debugging a program that initially throws a `NameError`. You fix it, but the same error pops up again after later code changes in subsequent code runs. What is the MOST likely explanation for this given the limited context?**
+52. **You're debugging a program that initially throws a `NameError`. You fix it, but the same error pops up again after later code changes in subsequent code runs. What is the MOST likely explanation for this given the limited context?**
 
     - A) Your fix introduced a dependency that wasn't fully resolved elsewhere in the code.
     - B) `NameError`s will reappear unless the variable type is explicitly declared.
@@ -797,7 +783,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: C)
 
-54. **You're combining a number and a string using the `+` operator in Python, but it throws a `TypeError`. What concept do you need to understand to resolve this?**
+53. **You're combining a number and a string using the `+` operator in Python, but it throws a `TypeError`. What concept do you need to understand to resolve this?**
 
     - A) How Python prioritizes operators in mixed expressions.
     - B) How Python distinguishes between different data types and converts them.
@@ -806,7 +792,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-55. **You write a function to calculate the average of a list of numbers. The function returns the correct result when you use it with small lists, but crashes with an `IndexError` when used on a very large list. What is the MOST likely reason for this given the limited context?**
+54. **You write a function to calculate the average of a list of numbers. The function returns the correct result when you use it with small lists, but crashes with an `IndexError` when used on a very large list. What is the MOST likely reason for this given the limited context?**
 
     - A) Python’s internal list functions don’t support large datasets by default.
     - B) The function contains assumptions about list size or structure that don’t hold for all inputs.
@@ -815,7 +801,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-56. **You're writing a program that uses a dictionary to store user preferences.  You try to access a key that you _know_ exists in the dictionary, but your code throws a `KeyError`. What is the MOST likely reason for this given the limited context?**
+55. **You're writing a program that uses a dictionary to store user preferences.  You try to access a key that you _know_ exists in the dictionary, but your code throws a `KeyError`. What is the MOST likely reason for this given the limited context?**
 
     - A) The key might have been altered or removed elsewhere in the code.
     - B) The key is actually a string, but you’re trying to access it with an integer.
@@ -824,7 +810,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: C)
 
-57. **You're iterating through a list of strings and calling a method on each, but receive an `AttributeError`. What is the MOST likely reason for this given the limited context?**
+56. **You're iterating through a list of strings and calling a method on each, but receive an `AttributeError`. What is the MOST likely reason for this given the limited context?**
 
     - A) The `for` loop is incorrectly structured and causing unexpected behavior.
     - B) You're attempting to access or call something (a method or attribute) that isn't available for the type of object you’re working with.
@@ -833,7 +819,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-58. **You’re writing a program that uses recursion to calculate the factorial of a number.  The program works correctly for small numbers, but crashes with a `RecursionError` on large inputs. What’s the MOST likely reason for this given the limited context?**
+57. **You’re writing a program that uses recursion to calculate the factorial of a number.  The program works correctly for small numbers, but crashes with a `RecursionError` on large inputs. What’s the MOST likely reason for this given the limited context?**
 
     - A) `RecursionError`s are caused by defining `for` loops incorrectly.
     - B) The base case is incorrectly written, causing infinite recursion.
@@ -845,7 +831,7 @@ This survey is designed to assess your understanding and ability to identify, un
 ### Miscellanous Questions - Various Complexity & Scope
 ---
 
-59. **Identify the specific error in the following Python code snippet.**
+58. **Identify the specific error in the following Python code snippet.**
 
     ```python
     from math import sin
@@ -859,7 +845,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-60. **Review the function below and determine the logical error causing an incorrect result, if any.**
+59. **Review the function below and determine the logical error causing an incorrect result, if any.**
 
     ```python
     def find_max(numbers):
@@ -879,7 +865,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-61. **Examine the following `Rectangle` class definition. What is the issue in this code, if any?**
+60. **Examine the following `Rectangle` class definition. What is the issue in this code, if any?**
 
     ```python
     class Rectangle:
@@ -901,7 +887,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-62. **Determine the correct fix for the `TypeError` in the following string concatenation function.**
+61. **Determine the correct fix for the `TypeError` in the following string concatenation function.**
 
     ```python
     def concatenate_strings(str1, str2):
@@ -918,7 +904,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-63. **Read the code snippet below and choose the answer that correctly identifies the error and suggests a valid fix.**
+62. **Read the code snippet below and choose the answer that correctly identifies the error and suggests a valid fix.**
 
     ```python
     def process_data(data_list):
@@ -943,7 +929,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: C)
 
-64. **Analyze the code below and identify the error that will occur when it is executed.**
+63. **Analyze the code below and identify the error that will occur when it is executed.**
 
     ```python
     def get_value(d, key):
@@ -960,7 +946,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-65. **In the code snippet below, identify the mistake that prevents correct evaluation of the condition.**
+64. **In the code snippet below, identify the mistake that prevents correct evaluation of the condition.**
 
     ```python
     x = 10
@@ -975,7 +961,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: D)
 
-66. **The following code snippet produces an error and does not compute the sum of a list of values correctly. Pick the answer that fixes both the error and the logic, while maintaing the desired function behavior. The sum that must be printed on line 6 is 10.**
+65. **The following code snippet produces an error and does not compute the sum of a list of values correctly. Pick the answer that fixes both the error and the logic, while maintaing the desired function behavior. The sum that must be printed on line 6 is 10.**
 
     ```python
     1: def sum_list(lst):
@@ -993,7 +979,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-67. **The following code raises a `NameError`. Choose the correct fix that will allow the code to print `True` while still performing function calls.**
+66. **The following code raises a `NameError`. Choose the correct fix that will allow the code to print `True` while still performing function calls.**
 
     ```python
     def multiply(a, b):
@@ -1009,7 +995,7 @@ This survey is designed to assess your understanding and ability to identify, un
     
     Correct Answer: D)
 
-68. **Given the code snippet below, identify the option that best describes the type of error that will occur when the code is executed.**
+67. **Given the code snippet below, identify the option that best describes the type of error that will occur when the code is executed.**
 
     ```python
     class MyClass:
