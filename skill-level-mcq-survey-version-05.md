@@ -333,7 +333,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-27. **The following code snippet produces an error and does not compute the sum correctly. Pick the answer that fixes both the error and the logic.**
+27. **The following code produces an error when executed. Which change would fix the error while preserving the intended behavior described in the docstrings?**
 
     ```python
     def sum_list(lst):
@@ -356,7 +356,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-28. **The snippet below produces an error. Choose the option that correctly fixes the error while maintaining the desired functionality for the function.**
+28. **The following code produces an error when executed. Which change would fix the error while preserving the intended behavior described in the docstrings?**
 
     ```python
     def power(base, exponent):
@@ -376,7 +376,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-29. **The `countdown` function from the Python code snippet below sometimes results in an error. What option corrects the error while preserving the intended logic?**
+29. **The `countdown` function below sometimes results in an error when called with certain inputs. Which change would fix the error while preserving the function’s intended behavior, as described in the docstrings?**
 
     ```python
     def countdown(n):
@@ -413,7 +413,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: C)
 
-31. **The `first_char` function from the Python code snippet below sometimes results in an error. What option corrects the error while preserving the intended logic?**
+31. **The `first_char` function below sometimes results in an error when called with certain inputs. Which change would fix the error while preserving the function’s intended behavior, as described in the docstrings?**
 
     ```python
     def first_char(s):
@@ -465,9 +465,9 @@ This survey is designed to assess your understanding and ability to identify, un
     ```
 
     - A) The code contains a syntax error and won't run properly
-    - B) The condition should use `or` instead of `and`, because `and` forces evaluation of both sides of the condition, which throws an error.
+    - B) The condition should use `or` instead of `and`, because `and` forces evaluation of both sides of the condition, which throws an error
     - C) Division by zero error is avoided due to short-circuit logic 
-    - D) The code contains a `TypeError` as `"0"` can be ambiguously interpreted to different primitive types.
+    - D) The code contains a `TypeError` as `"0"` can be ambiguously interpreted to different primitive types
 
     Correct Answer: C)
 
@@ -881,13 +881,13 @@ This survey is designed to assess your understanding and ability to identify, un
     ```  
 
     - A) The attributes `width` and `height` are not prefixed with `self.` inside the `area` method
-    - B) The `area` method should accept an extra parameter
-    - C) When creating `rect`, it is mandatory to also provide `self`, since the `Rectangle`'s constructor accepts 3 arguments
+    - B) The `area` method is missing the `self` parameter in its definition
+    - C) The call to `Rectangle(3, 4)` is invalid because the constructor expects 3 arguments, including `self`
     - D) There is no error; the code is both syntactically and semantically correct
 
     Correct Answer: A)
 
-61. **Determine the correct fix for the `TypeError` in the following string concatenation function.**
+61. **The following function raises a `TypeError` when run. Which change would fix the error while preserving the intended behavior of concatenating two values as strings?**
 
     ```python
     def concatenate_strings(str1, str2):
@@ -904,7 +904,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-62. **Read the code snippet below and choose the answer that correctly identifies the error and suggests a valid fix.**
+62. **Read the code snippet below. It raises an error during execution. Which option correctly identifies the cause and suggests a valid fix?**
 
     ```python
     def process_data(data_list):
@@ -946,7 +946,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-64. **In the code snippet below, identify the mistake that prevents correct evaluation of the condition.**
+64. **In the code snippet below, what is the mistake that prevents the correct evaluation of the condition?**
 
     ```python
     x = 10
@@ -961,7 +961,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: D)
 
-65. **The following code snippet produces an error and does not compute the sum of a list of values correctly. Pick the answer that fixes both the error and the logic, while maintaining the desired function behavior. The sum that must be printed on line 6 is 10.**
+65. **The code snippet below raises an error and does not compute the sum of the list correctly. Choose the option that both fixes the error and ensures the correct sum (10) is printed on line 6.**
 
     ```python
     1: def sum_list(lst):
@@ -979,7 +979,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-66. **The following code raises a `NameError`. Choose the correct fix that will allow the code to print `True` while still performing function calls.**
+66. **The code below raises a `NameError`. Which change would fix the error and allow the program to print True while preserving the intended behavior of comparing two function calls?**
 
     ```python
     def multiply(a, b):
@@ -989,13 +989,13 @@ This survey is designed to assess your understanding and ability to identify, un
     ```
 
     - A) Change the print statement to `print(True)`
-    - B) Change the type of the parameters of the `multiply` function to strings
+    - B) Change the parameter types of the `multiply` function to strings
     - C) Import the `multiplyy` function from the `math` module 
-    - D) Rename the left-most function call in the print statement to match the definition
+    - D) Correct the typo by renaming `multiplyy` to `multiply` in the function call
     
     Correct Answer: D)
 
-67. **Given the code snippet below, identify the option that best describes the type of error that will occur when the code is executed.**
+67. **Examine the following code. What type of error will occur when the code is executed?**
 
     ```python
     class MyClass:
