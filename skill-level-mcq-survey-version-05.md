@@ -465,9 +465,9 @@ This survey is designed to assess your understanding and ability to identify, un
     ```
 
     - A) The code contains a syntax error and won't run properly
-    - B) The condition should use `or` instead of `and`, because `and` forces evaluation of both sides of the condition which throws an error.
+    - B) The condition should use `or` instead of `and`, because `and` forces evaluation of both sides of the condition, which throws an error.
     - C) Division by zero error is avoided due to short-circuit logic 
-    - D) The code contains a `TypeError` as `"0"` can be ambigously interpreted to different primitive types.
+    - D) The code contains a `TypeError` as `"0"` can be ambiguously interpreted to different primitive types.
 
     Correct Answer: C)
 
@@ -488,7 +488,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-35. **Read the code snippet below and identify which line is logically wrong when computing the area of a rectangle.**
+35. **Read the code snippet below and identify which code line is logically wrong when computing the area of a rectangle.**
 
     ```python
     1: def area_rectangle(length, width):
@@ -505,7 +505,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: D)
 
-36. **Read the code snippet below and identify what is the expected output when the code is executed.**
+36. **Read the code snippet below and identify what the expected output is when the code is executed.**
 
     ```python
     def get_greeting():
@@ -522,7 +522,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-37. **Read the code snippet below and identify what will be printed by the code when executed.**
+37. **Read the code snippet below and identify what the expected output is when the code is executed.**
 
     ```python
     x = 8
@@ -534,12 +534,12 @@ This survey is designed to assess your understanding and ability to identify, un
 
     - A) `True`  
     - B) `False`  
-    - C) An error because `==` should be `=`.  
-    - D) Nothing, as the code contains an error.
+    - C) An error, because `==` is incorrectly used instead of `=`  
+    - D) Nothing, as the code contains an error
 
     Correct Answer: A)
 
-38. **Read the code snippet below and identify what will be printed by the code when executed.**
+38. **Read the code snippet below and identify what the expected output is when the code is executed.**
 
     ```python
     a = 5
@@ -556,11 +556,11 @@ This survey is designed to assess your understanding and ability to identify, un
     - A) `a is equal to b`
     - B) `b is equal to a`  
     - C) `a is not equal to b`
-    - D) Nothing, as the code contains an error.
+    - D) Nothing, as the code contains an error
 
     Correct Answer: C)
 
-39. **Read the code snippet below and identify what will be printed by the code when executed.**
+39. **Read the code snippet below and identify what the expected output is when the code is executed.**
 
     ```python
     a = True or 3/0
@@ -574,7 +574,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-40. **Read the code snippet below and identify what will be printed by the code when executed.**
+40. **Read the code snippet below and identify what the expected output is when the code is executed.**
 
     ```python
     a = False and 3/0
@@ -588,7 +588,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-41. **Read the code snippet below and identify what will be printed by the code when executed.**
+41. **Read the code snippet below and identify what the expected output is when the code is executed.**
 
     ```python
     a = False
@@ -601,12 +601,12 @@ This survey is designed to assess your understanding and ability to identify, un
 
     - A) `Condition met`  
     - B) `Condition not met`  
-    - C) Nothing, since there is an error with the logical operators  
-    - D) No output
+    - C) No output, since there is an error with the logical operators
+    - D) No errors, but also no output
 
     Correct Answer: A)
 
-42. **Read the code snippet below and identify what will be printed by the code when executed.**
+42. **Read the code snippet below and identify what the expected output is when the code is executed.**
 
     ```python
     def first():
@@ -623,9 +623,9 @@ This survey is designed to assess your understanding and ability to identify, un
         print("result False")
     ```
 
-    - A) Prints `first`, `second` and `result True`  
-    - B) Prints `first` and `result True`  
-    - C) Prints `second` and `result False`  
+    - A) Prints `first`, `second` and `result True`
+    - B) Prints `first` and `result True`
+    - C) Prints `second` and `result False` 
     - D) Prints `first`, `second`, and `result False`
 
     Correct Answer: B)
@@ -642,8 +642,8 @@ This survey is designed to assess your understanding and ability to identify, un
     IndexError: list index out of range
     ```
 
-    - A) The list `elements` has fewer than 6 elements  
-    - B) The list `elements` is not defined  
+    - A) The list `elements` has fewer than 6 elements
+    - B) The list `elements` is not defined
     - C) The list is indexed starting at 1, so 5 is out of range
     - D) The list is empty and cannot be printed
 
@@ -651,7 +651,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
 44. **Based solely on the error stack trace below, choose the best explanation of the error.**
 
-    ```python
+    ```
     Traceback (most recent call last):
     File "main.py", line 2, in <module>
         result = "5" + 3
@@ -659,7 +659,7 @@ This survey is designed to assess your understanding and ability to identify, un
     ```
 
     - A) The variable `result` is undefined
-    - B) An integer cannot be used as a string index.
+    - B) An integer cannot be used as a string index
     - C) The code is trying to concatenate a string and an integer without proper type conversion
     - D) The code is trying to multiply a string by an integer, which is not allowed
 
@@ -667,7 +667,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
 45. **Based solely on the error stack trace below, choose the best explanation of the error.**
 
-    ```python
+    ```
     Traceback (most recent call last):
     File "main.py", line 1, in <module>
         def my_function()
@@ -675,32 +675,32 @@ This survey is designed to assess your understanding and ability to identify, un
     SyntaxError: invalid syntax
     ```
 
-    - A) The function definition is missing a colon at the end.
-    - B) The function is missing a return statement.
+    - A) The function definition is missing a colon at the end
+    - B) The function is missing a return statement
     - C) There’s a problem with the indentation of the function
-    - D) The variable `my_function` hasn’t been assigned a value.
+    - D) The variable `my_function` hasn’t been assigned a value
 
     Correct Answer: A)
 
 46. **Based solely on the error stack trace below, choose the best explanation of the error.**
 
-    ```python
+    ```
     Traceback (most recent call last):
     File "main.py", line 4, in <module>
         print(x)
     NameError: name 'x' is not defined
     ```
 
-    - A) The variable `x` hasn’t been initialized or declared before being used.
+    - A) The variable `x` hasn’t been initialized or declared before being used
     - B) The variable `x` has the wrong type assigned to it
-    - C) The code is attempting to access a variable from another function’s scope.
-    - D) The print statement must reference an index of `x`.
+    - C) The code is attempting to access a variable from another function’s scope
+    - D) The print statement must reference an index of `x`
 
     Correct Answer: A)
 
 47. **Based solely on the error stack trace below, choose the best explanation of the error.**
 
-    ```python
+    ```
     Traceback (most recent call last):
     File "main.py", line 2, in <module>
         int("one")
@@ -716,39 +716,39 @@ This survey is designed to assess your understanding and ability to identify, un
 
 48. **Based solely on the error stack trace below, choose the best explanation of the error.**
 
-    ```python
+    ```
     Traceback (most recent call last):
     File "main.py", line 5, in <module>
         open("file.txt", "r")
     FileNotFoundError: [Errno 2] No such file or directory: 'file.txt'
     ```
 
-    - A) The file is open in another program and cannot be accessed.
+    - A) The file is open in another program and cannot be accessed
     - B) The file `file.txt` does not exist in the current directory
-    - C) The code is trying to write to a file that is set to read-only.
-    - D) There is a syntax error when using the `open()` function to read `file.txt`.
+    - C) The code is trying to write to a file that is set to read-only
+    - D) There is a syntax error when using the `open()` function to read `file.txt`
 
     Correct Answer: B)
 
 49. **Based solely on the error stack trace below, choose the best explanation of the error.**
 
-    ```python
+    ```
     Traceback (most recent call last):
     File "main.py", line 3, in <module>
         my_list.remove(10)
     ValueError: list.remove(x): x not in list
     ```
 
-    - A) The list `my_list` is empty, therefore nothing can be removed.
-    - B) The value of `x` is not found in `my_list`, so it can't be removed.
-    - C) You must assign the result of `.remove()` to a new variable.
-    - D) The value of `10` is not found in `my_list`, so it can't be removed.
+    - A) The list `my_list` is empty, therefore nothing can be removed
+    - B) The value of `x` is not found in `my_list`, so it can't be removed
+    - C) You must assign the result of `.remove()` to a new variable
+    - D) The value of `10` is not found in `my_list`, so it can't be removed
 
     Correct Answer: D)
 
 50. **Based solely on the error stack trace below, choose the best explanation of the error.**
 
-    ```python
+    ```
     Traceback (most recent call last):
     File "main.py", line 3, in <module>
         data = {"name": "Alice", "age": 30}
@@ -756,30 +756,30 @@ This survey is designed to assess your understanding and ability to identify, un
     KeyError: 'email'
     ```
 
-    - A) The dictionary `data` is not defined properly.
-    - B) The code is trying to access a key `'email'` that doesn't exist in the dictionary.
-    - C) The key `'email'` needs to be declared as a variable first.
-    - D) Dictionaries cannot store strings as keys.
+    - A) The dictionary `data` is not defined properly
+    - B) The code is trying to access a key `'email'` that doesn't exist in the dictionary
+    - C) The key `'email'` needs to be declared as a variable first
+    - D) Dictionaries cannot store strings as keys
 
     Correct Answer: B)
 
 ###  Natural Language Scenarios
 
-51. **You write a program to calculate the average of three numbers entered by the user. The code runs without crashing, but the result is slightly incorrect each time. What is the MOST likely cause for this given the limited context?**
+51. **You write a program to calculate the average of three numbers entered by the user. The code runs without crashing, but the result is slightly incorrect each time. What is the MOST likely cause for this, given the limited context?**
 
     - A) A `SyntaxError` caused the wrong result to be stored.
-    - B) A `TypeError` occurred when dividing numbers..
+    - B) A `TypeError` occurred when dividing numbers.
     - C) A logic error in how the average is computed.
     - D) An `IndexError` occurred due to incorrect list indexing.
 
     Correct Answer: C)
 
-52. **You're debugging a program that initially throws a `NameError`. You fix it, but the same error pops up again after later code changes in subsequent code runs. What is the MOST likely explanation for this given the limited context?**
+52. **You're debugging a program that initially throws a `NameError`. You fix it, but the same error pops up again after later code changes in subsequent code runs. What is the MOST likely explanation for this, given the limited context?**
 
     - A) Your fix introduced a dependency that wasn't fully resolved elsewhere in the code.
     - B) `NameError`s will reappear unless the variable type is explicitly declared.
     - C) A similar issue is occurring in a different scope or function that wasn't originally part of the fix.
-    - D) `KeyError`s and `NameError`s are essentially interchangeable and often happen together.
+    - D) `KeyError` and `NameError` are essentially interchangeable and often happen together.
 
     Correct Answer: C)
 
@@ -792,7 +792,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-54. **You write a function to calculate the average of a list of numbers. The function returns the correct result when you use it with small lists, but crashes with an `IndexError` when used on a very large list. What is the MOST likely reason for this given the limited context?**
+54. **You write a function to calculate the average of a list of numbers. The function returns the correct result when you use it with small lists, but it crashes with an `IndexError` when used on a very large list. What is the MOST likely reason for this, given the limited context?**
 
     - A) Python’s internal list functions don’t support large datasets by default.
     - B) The function contains assumptions about list size or structure that don’t hold for all inputs.
@@ -801,27 +801,27 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-55. **You're writing a program that uses a dictionary to store user preferences.  You try to access a key that you _know_ exists in the dictionary, but your code throws a `KeyError`. What is the MOST likely reason for this given the limited context?**
+55. **You're writing a program that uses a dictionary to store user preferences.  You try to access a key that you _know_ exists in the dictionary, but your code throws a `KeyError`. What is the MOST likely reason for this, given the limited context?**
 
-    - A) The key might have been altered or removed elsewhere in the code.
-    - B) The key is actually a string, but you’re trying to access it with an integer.
-    - C) There’s a typo in the key you are trying to access (e.g., `"User"` vs `"user"`), or the case sensitivity is different than expected.
-    - D) Dictionaries can sometimes fail to locate keys due to internal hashing bugs or collisions.
+    - A) The key might have been altered or removed elsewhere in the code
+    - B) The key is actually a string, but you’re trying to access it with an integer
+    - C) There’s a typo in the key you are trying to access (e.g., `"User"` vs `"user"`), or the case sensitivity is different than expected
+    - D) Dictionaries can sometimes fail to locate keys due to internal hashing bugs or collisions
 
     Correct Answer: C)
 
-56. **You're iterating through a list of strings and calling a method on each, but receive an `AttributeError`. What is the MOST likely reason for this given the limited context?**
+56. **You're iterating through a list of strings and calling a method on each, but receive an `AttributeError`. What is the MOST likely reason for this, given the limited context?**
 
-    - A) The `for` loop is incorrectly structured and causing unexpected behavior.
-    - B) You're attempting to access or call something (a method or attribute) that isn't available for the type of object you’re working with.
-    - C) The strings in your list are actually integers disguised as strings.
-    - D) `AttributeError`s only occur when using recursion.
+    - A) The `for` loop is incorrectly structured and is causing unexpected behavior
+    - B) You're attempting to access or call something (a method or attribute) that isn't available for the type of object you’re working with
+    - C) The strings in your list are actually integers disguised as strings
+    - D) `AttributeError` only occurs when using recursion
 
     Correct Answer: B)
 
-57. **You’re writing a program that uses recursion to calculate the factorial of a number.  The program works correctly for small numbers, but crashes with a `RecursionError` on large inputs. What’s the MOST likely reason for this given the limited context?**
+57. **You’re writing a program that uses recursion to calculate the factorial of a number.  The program works correctly for small numbers, but crashes with a `RecursionError` on large inputs. What’s the MOST likely reason for this, given the limited context?**
 
-    - A) `RecursionError`s are caused by defining `for` loops incorrectly
+    - A) `RecursionError` is usually caused by defining `for` loops incorrectly
     - B) The base case is incorrectly written, causing infinite recursion
     - C) Python's recursion depth limit has been exceeded, meaning the function called itself too many times
     - D) Factorial can’t be computed for large numbers in Python due to memory limits
