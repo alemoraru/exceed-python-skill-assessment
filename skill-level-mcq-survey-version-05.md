@@ -169,7 +169,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: C)
 
-16. **The following code snippet is known to include an issue that will cause an error when executed. Choose the option that correctly identifies the kind of error that will be produced.**
+16. **The following code snippet is known to include an issue that will cause an error when executed. Choose the option that correctly identifies the type of error that will be produced.**
 
    ```python
    x = "100a"
@@ -210,7 +210,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-19. **Given the following code snippet, what is the most likely error message one will receive when trying to execute it.**
+19. **Given the following code snippet, what is the most likely error message one will receive when trying to execute it?**
 
     ```python
     def multiply(a, b):
@@ -263,7 +263,7 @@ This survey is designed to assess your understanding and ability to identify, un
         x = 5
         if x > 3:
             print("x is greater than 3")
-          print("This line is misindented")
+          print("x is not greater than 3")
     foo()
     ```
 
