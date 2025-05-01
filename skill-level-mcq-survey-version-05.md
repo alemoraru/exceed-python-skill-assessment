@@ -633,7 +633,7 @@ This survey is designed to assess your understanding and ability to identify, un
 ### Error Message Comprehension
 ---
 
-43. **Based solely on the error stack trace below, choose the best explanation of the error.**
+43. **Based only on the error message below, which option best explains the cause of the error?**
 
     ```
     Traceback (most recent call last):
@@ -649,7 +649,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-44. **Based solely on the error stack trace below, choose the best explanation of the error.**
+44. **Based only on the error message below, which option best explains the cause of the error?**
 
     ```
     Traceback (most recent call last):
@@ -665,7 +665,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: C)
 
-45. **Based solely on the error stack trace below, choose the best explanation of the error.**
+45. **Based only on the error message below, which option best explains the cause of the error?**
 
     ```
     Traceback (most recent call last):
@@ -682,7 +682,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-46. **Based solely on the error stack trace below, choose the best explanation of the error.**
+46. **Based only on the error message below, which option best explains the cause of the error?**
 
     ```
     Traceback (most recent call last):
@@ -698,7 +698,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-47. **Based solely on the error stack trace below, choose the best explanation of the error.**
+47. **Based only on the error message below, which option best explains the cause of the error?**
 
     ```
     Traceback (most recent call last):
@@ -714,7 +714,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: D)
 
-48. **Based solely on the error stack trace below, choose the best explanation of the error.**
+48. **Based only on the error message below, which option best explains the cause of the error?**
 
     ```
     Traceback (most recent call last):
@@ -730,7 +730,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-49. **Based solely on the error stack trace below, choose the best explanation of the error.**
+49. **Based only on the error message below, which option best explains the cause of the error?**
 
     ```
     Traceback (most recent call last):
@@ -746,7 +746,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: D)
 
-50. **Based solely on the error stack trace below, choose the best explanation of the error.**
+50. **Based only on the error message below, which option best explains the cause of the error?**
 
     ```
     Traceback (most recent call last):
