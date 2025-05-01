@@ -84,7 +84,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-9. **In Python, what does the following error message suggest?**
+9. **What does the following Python error message indicate?**
    ```python
    TypeError: can only concatenate str (not "int") to str
    ```
@@ -95,7 +95,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-10. **In Python, what does the following error message indicate?**
+10. **What does the following Python error message indicate?**
    ```python
    IndexError: list index out of range
    ```
@@ -106,7 +106,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
    Correct Answer: A)
 
-11. **What does the following Python error usually mean?**
+11. **What does the following Python error message indicate?**
     ```python
     AttributeError: 'int' object has no attribute 'append'
     ```
@@ -117,7 +117,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-12. **What is the cause of this Python error?**
+12. **What does the following Python error message indicate?**
     ```python
     ZeroDivisionError: division by zero
     ```
@@ -128,7 +128,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-13. **What does the following Python error imply?**
+13. **What does the following Python error message indicate?**
     ```python
     IndentationError: unexpected indent
     ```
@@ -139,7 +139,7 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-14. **What typically causes the following Python error?**
+14. **What does the following Python error message indicate?**
     ```python
     TypeError: 'int' object is not subscriptable
     ```
