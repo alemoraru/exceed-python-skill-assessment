@@ -20,7 +20,7 @@ This survey is designed to assess your understanding and ability to identify, un
 1. **What is the main purpose of a programming error message?**
     - A) To provide a warning about potential issues in the code.
     - B) To indicate that the code has been successfully compiled.
-    - C) To notify the programmer that something is wrong in the code before it runs.
+    - C) To notify the programmer that something is wrong in the code during compilation or execution.
     - D) To suggest optimizations for better performance.
 
     Correct Answer: C)
@@ -265,13 +265,13 @@ This survey is designed to assess your understanding and ability to identify, un
 
     ```python
     # Print all non-negative integers until 5 included 
-    for i in range(5)
+    for i in range(6)
         print(i)
     ```
 
     - A) Remove the `for` keyword  
     - B) Add a colon (i.e. `:`) at the end of the `for` line  
-    - C) Replace `range(5)` with `[0,5]`  
+    - C) Replace `range(6)` with `[0,5]`  
     - D) Add an `if` statement to check for non-negative integers
 
     Correct Answer: B)
