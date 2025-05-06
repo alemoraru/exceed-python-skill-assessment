@@ -18,18 +18,18 @@ This survey is designed to assess your understanding and ability to identify, un
 ---
 
 1. **What is the main purpose of a programming error message?**
-    - A) To provide a warning about potential issues in the code.
-    - B) To indicate that the code has been successfully compiled.
-    - C) To notify the programmer that something is wrong in the code during compilation or execution.
-    - D) To suggest optimizations for better performance.
+    - A) To provide a warning about potential issues in the code
+    - B) To indicate that the code has been successfully compiled
+    - C) To notify the programmer that something is wrong in the code during compilation or execution
+    - D) To suggest optimizations for better performance
 
     Correct Answer: C)
 
 2. **Which of the following statements best describes what a syntax error indicates?**
-   - A) The program logic is incorrect.
-   - B) There's an issue with variable naming conventions.
-   - C) The code does not conform to the rules of the language grammar.
-   - D) A file or resource cannot be found.
+   - A) The program logic is incorrect
+   - B) There's an issue with variable naming conventions
+   - C) The code does not conform to the rules of the language grammar
+   - D) A file or resource cannot be found
 
    Correct Answer: C)
 
