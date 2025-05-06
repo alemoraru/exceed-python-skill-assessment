@@ -218,7 +218,7 @@ This survey is designed to assess your understanding and ability to identify, un
     ```  
 
     - A) `KeyError: 'key'` 
-    - B) `SyntaxError: unexpected EOF while parsing (missing closing brace for the dictionary)`  
+    - B) `SyntaxError: unexpected EOF while parsing`  
     - C) `SyntaxError: missing colon in dictionary key-value pair`  
     - D) `TypeError: 'dict' object is not callable`
 
@@ -324,7 +324,7 @@ This survey is designed to assess your understanding and ability to identify, un
     ```python
     def countdown(n):
         """
-        This function counts down from n to 0.
+        This function recursively counts down from n to 0.
         """
         if n == 0:
             print("Blast off!")
