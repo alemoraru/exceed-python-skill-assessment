@@ -88,10 +88,10 @@ This survey is designed to assess your understanding and ability to identify, un
    ```python
    TypeError: can only concatenate str (not "int") to str
    ```
-   - A) The code tries to open a file that doesn't exist.
-   - B) Two incompatible types are being combined without explicit conversion.
-   - C) A variable is used before it has been assigned a value.
-   - D) There's an issue with function call syntax.
+   - A) The code tries to open a file that doesn't exist
+   - B) Two incompatible types are being combined without explicit conversion
+   - C) A variable is used before it has been assigned a value
+   - D) There's an issue with function call syntax
 
     Correct Answer: B)
 
@@ -99,10 +99,10 @@ This survey is designed to assess your understanding and ability to identify, un
    ```python
    IndexError: list index out of range
    ```
-   - A) The code attempts to access an element outside the boundaries of a list.
-   - B) An invalid data type is being used in a string formatting operation.
-   - C) There's a problem with dictionary key access.
-   - D) A syntax error related to list comprehension.
+   - A) The code attempts to access an element outside the boundaries of a list
+   - B) An invalid data type is being used in a string formatting operation
+   - C) The code does not have enough elements in a list to perform the operation
+   - D) A syntax error related to list comprehension
 
    Correct Answer: A)
 
@@ -110,10 +110,10 @@ This survey is designed to assess your understanding and ability to identify, un
     ```python
     AttributeError: 'int' object has no attribute 'append'
     ```
-    - A) You're trying to use a list method on a variable that holds an integer.
-    - B) You're trying to index an integer like a list.
-    - C) You're calling a method that belongs to strings, but on an integer.
-    - D) You're trying to use a method on the wrong object type.
+    - A) You're trying to use a list method on a variable that holds an integer
+    - B) You're trying to index an integer like a list
+    - C) You're calling a method that belongs to strings, but on an integer
+    - D) You're trying to use a method on the wrong object type
 
     Correct Answer: A)
 
@@ -121,10 +121,10 @@ This survey is designed to assess your understanding and ability to identify, un
     ```python
     ZeroDivisionError: division by zero
     ```
-    - A) The code is trying to divide a number by zero.
-    - B) The code is trying to concatenate incompatible types.
-    - C) The code is trying to divide zero by a number.
-    - D) The code is missing a return statement.
+    - A) The code is trying to divide a number by zero
+    - B) The code is trying to concatenate incompatible types
+    - C) The code is trying to divide zero by a number
+    - D) The code is missing a return statement
 
     Correct Answer: A)
 
@@ -132,10 +132,10 @@ This survey is designed to assess your understanding and ability to identify, un
     ```python
     IndentationError: unexpected indent
     ```
-    - A) The code has an extra indentation where none was expected.
-    - B) A block of code is missing a required indentation.
-    - C) A block of code uses inconsistent indentation (spaces vs. tabs).
-    - D) A function was called before it was defined.
+    - A) The code has an extra indentation where none was expected
+    - B) A block of code is missing a required indentation
+    - C) A block of code uses inconsistent indentation (spaces vs. tabs)
+    - D) A function was called before it was defined
 
     Correct Answer: A)
 
@@ -143,10 +143,10 @@ This survey is designed to assess your understanding and ability to identify, un
     ```python
     TypeError: 'int' object is not subscriptable
     ```
-    - A) You're trying to loop through an integer as if it's a list or iterable.
-    - B) You’re trying to call an integer as if it were a function.
-    - C) You tried to access an element of an integer using square brackets.
-    - D) You passed an integer to a method that expects a string.
+    - A) You're trying to loop through an integer as if it's a list or iterable
+    - B) You’re trying to call an integer as if it were a function
+    - C) You tried to access an element of an integer using square brackets
+    - D) You passed an integer to a method that expects a string
 
     Correct Answer: C)
 
