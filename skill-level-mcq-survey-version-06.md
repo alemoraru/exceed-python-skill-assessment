@@ -34,42 +34,42 @@ This survey is designed to assess your understanding and ability to identify, un
    Correct Answer: C)
 
 3. **What typically triggers a runtime error?**
-   - A) Improper indentation in Python.
-   - B) Trying to divide by zero.
-   - C) Using an undefined variable name.
-   - D) Missing semicolons at the end of statements (in languages that require them).
+   - A) Improper indentation in Python
+   - B) Trying to divide by zero
+   - C) Using an undefined variable name
+   - D) Missing semicolons at the end of statements (in languages that require them)
 
     Correct Answer: B)
 
 4. **What are semantic/logical errors?**
-   - A) Errors detected by the compiler during code compilation.
-   - B) Errors where the program runs but produces incorrect results.
-   - C) Errors due to syntax mistakes like missing parentheses.
-   - D) Errors related to file system permissions.
+   - A) Errors detected by the compiler during code compilation
+   - B) Errors where the program runs without errors but produces undesirable results
+   - C) Errors due to syntax mistakes like missing parentheses
+   - D) Errors related to file system permissions
 
     Correct Answer: B)
 
 5. **What does a "type mismatch" error usually indicate?**
-    - A) The function has too many return statements.
-    - B) A variable is being used before it's initialized.
-    - C) A value is assigned or passed that doesn’t match the expected data type.
-    - D) The code is missing a necessary import or include.
+    - A) The function has too many return statements
+    - B) A variable is being used before it's initialized
+    - C) A value is assigned or passed that doesn’t match the expected data type
+    - D) The code is missing a necessary import or include
 
     Correct Answer: C)
 
 6. **What distinguishes a compilation error from an interpretation error?**
-    - A) Compilation errors occur at runtime, interpretation errors do not.
-    - B) Compilation errors only occur in dynamically typed languages.
-    - C) Compilation errors occur before execution; interpretation errors may happen during execution.
-    - D) They are the same; the terms are interchangeable.
+    - A) Compilation errors occur at runtime, interpretation errors do not
+    - B) Compilation errors only occur in dynamically typed languages
+    - C) Compilation errors occur before execution; interpretation errors may happen during execution
+    - D) They are the same; the terms are interchangeable
 
     Correct Answer: C)
 
 7. **Why might a program fail to compile even if the logic seems correct?**
-    - A) The output is not what was expected.
-    - B) The program uses inefficient algorithms.
-    - C) The code violates the language's grammar rules.
-    - D) The program takes too long to execute.
+    - A) The output is not what was expected
+    - B) The program uses inefficient algorithms
+    - C) The code violates the language's grammar rules
+    - D) The program takes too long to execute
 
     Correct Answer: C)
 
