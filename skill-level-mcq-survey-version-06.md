@@ -781,7 +781,7 @@ This survey is designed to assess your understanding and ability to identify, un
     print(get_value(d, "c"))
     ```  
 
-    - A) `KeyError: 'c' because the key does not exist in the dictionary.` 
+    - A) `KeyError: 'c'` 
     - B) `SyntaxError: invalid syntax`
     - C) `NameError: name 'd' is not defined`  
     - D) `TypeError: 'dict' object is not callable`
@@ -791,15 +791,15 @@ This survey is designed to assess your understanding and ability to identify, un
 54. **In the code snippet below, what is the mistake that prevents the correct evaluation of the condition?**
 
     ```python
-    x = 10
+    x = "10"
     if x = 10:
         print("x is ten")
     ```
 
     - A) The condition should be wrapped in parentheses  
     - B) The print statement is incorrect  
-    - C) The variable `x` is not initialized 
-    - D) The assignment operator `=` is used instead of `==`
+    - C) The variable `x` is compared to an integer instead of a string
+    - D) Assignment operator is used insted of comparison operator
 
     Correct Answer: D)
 
