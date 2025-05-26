@@ -6,6 +6,10 @@ and several miscellaneous files that were useful during the project.
 It is one of several companion repositories for the upcoming paper within the EXCEED framework:
 *"Learning-Enhanced Variable Error expLanations."*
 
+> **Note**: The goal of the Qualtrics survey was to find a better way to objectively assess Python proficiency, while
+> centering questions around common errors, identification, resolution, and understanding, rather than general
+> programming knowledge.
+
 ---
 
 ## Folder structure
@@ -103,5 +107,3 @@ It is one of several companion repositories for the upcoming paper within the EX
 
 You are free to reuse/modify the code and anonymised data with attribution. If you quote or adapt the survey items,
 please credit the original authors as per the CC‑BY 4.0 terms.
-
----
