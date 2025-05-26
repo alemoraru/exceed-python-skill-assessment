@@ -6,6 +6,9 @@ and several miscellaneous files that were useful during the project.
 It is one of several companion repositories for the upcoming paper within the EXCEED framework:
 *"Learning-Enhanced Variable Error expLanations."*
 
+The research that this repository supports is part of the EXCEED Master's thesis project by **Alexandru Moraru**
+at Delft University of Technology, part of the **Web Information Systems** research group.
+
 > **Note**: The goal of the Qualtrics survey was to find a better way to objectively assess Python proficiency, while
 > centering questions around common errors, identification, resolution, and understanding, rather than general
 > programming knowledge.
