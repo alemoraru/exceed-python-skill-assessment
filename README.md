@@ -24,8 +24,8 @@ It is one of several companion repositories for the upcoming paper within the EX
 │   └── requirements.txt
 ├── survey/
 │   ├── old_md_versions/
-│   ├── survey.qsf
-│   ├── survey.pdf
+│   ├── qualtrics_final_survey.qsf
+│   ├── qualtrics_final_survey.pdf
 │   └── ConsentFormPythonQualtricsEXCEED.pdf
 └── misc/
 ```
