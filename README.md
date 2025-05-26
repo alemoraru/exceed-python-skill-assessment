@@ -6,7 +6,7 @@ and several miscellaneous files that were useful during the project.
 It is one of several companion repositories for the upcoming paper within the EXCEED framework:
 *"Learning-Enhanced Variable Error expLanations."*
 
-The research that this repository supports is part of the EXCEED Master's thesis project by **Alexandru Moraru**
+The research that this repository supports is part of the EXCEED Master's thesis project by **Alexandru-Radu Moraru**
 at Delft University of Technology, part of the **Web Information Systems** research group.
 
 > **Note**: The goal of the Qualtrics survey was to find a better way to objectively assess Python proficiency, while
@@ -19,11 +19,13 @@ at Delft University of Technology, part of the **Web Information Systems** resea
 
 ```
 ├── data/
+│   ├── processed/
 │   ├── survey_answers.csv
 │   └── survey_results.csv
 ├── notebooks/
 │   ├── 00_high_level_analysis.ipynb
 │   ├── 01_detailed_analysis.ipynb
+│   ├── 02_visualisation.ipynb
 │   └── requirements.txt
 ├── survey/
 │   ├── old_md_versions/
@@ -35,7 +37,9 @@ at Delft University of Technology, part of the **Web Information Systems** resea
 
 * **data/** – Raw and cleaned survey data files. The `survey_results.csv` file contains the anonymised responses,
   while `survey_answers.csv` includes the raw answers with question IDs (the actual answers are label-encoded).
-* **notebooks/** – Fully runnable notebooks that replicate every table, figure, and metric petaining to the Qualtrics
+  Additionally, the `processed/` subfolder contains some intermediate data files used during the analysis, which are 
+  also used for visualisation and scoring in the notebooks.
+* **notebooks/** – Fully runnable notebooks that replicate every table, figure, and metric pertaining to the Qualtrics
   Python skill level assessment. The `requirements.txt` file lists the Python dependencies needed to run them.
 * **survey/** – The exact question text (\*.qsf + printable PDF) plus the consent form used in the actual survey.
   The `old_md_versions/` folder contains previous Markdown versions of the survey text, which may be useful for
@@ -95,6 +99,7 @@ at Delft University of Technology, part of the **Web Information Systems** resea
    ```bash
    jupyter lab 00_high_level_analysis.ipynb
    jupyter lab 01_detailed_analysis.ipynb
+   jupyter lab 02_visualisation.ipynb
    ```
    Alternatively, you can of course run the notebooks within VS Code or any other Jupyter-compatible IDE
    (e.g., PyCharm).
