@@ -85,7 +85,9 @@ The first notebook (`01_high_level_analysis.ipynb`) provides an overview of the 
 - **Median Duration of Completion**: 986.5 seconds (approx. 16 minutes)
 - **Average Python YoE**: 5.7
 - **Average General Programming YoE**: 12.7
+- **Average Dreyfus Python Skill Level**: 4.02
 - **Average estimated correct answers**: 12.2 out of 16
+- **Correlation between Python YoE and Dreyfus Skill Level**: 0.34 (weak positive correlation - somewhat surprising)
 - **Correlation between Python YoE and general programming YoE**: 0.55 (moderate positive correlation - expected)
 - **Correlation between Python YoE and estimated correct answers**: 0.24 (weak positive correlation - surprising)
 - **Correlation between general programming YoE and estimated correct answers**: 0.03 (very weak positive correlation -
@@ -97,10 +99,10 @@ The second notebook (`02_detailed_analysis.ipynb`) explores the actual performan
 means to rank the survey's questions by difficulty, and ability to discriminate between different skill levels.
 Some of the key findings include:
 
-- **Average Correct Answers**: 10.64 out of 16
-- **Correlation between Python YoE and actual correct answers**: 0.29 (weak positive correlation)
+- **Average Correct Answers**: 10.78 out of 16
+- **Correlation between Python YoE and actual correct answers**: 0.28 (weak positive correlation)
 - **Correlation between general programming YoE and actual correct answers**: 0.06 (very weak positive correlation)
-- **Correlation between estimated correct answers and actual correct answers**: 0.37 (quite weak positive correlation)
+- **Correlation between estimated correct answers and actual correct answers**: 0.41 (quite weak positive correlation)
 
 ### 3. Visualization
 
@@ -154,6 +156,43 @@ answers:
     - D) Dictionaries can sometimes fail to locate keys due to internal hashing bugs or collisions
 
   > **Correct Answers**: while the original question only had option C as correct, we considered both A and C as correct
+
+### 5. Conclusion
+
+In terms of the actual final chosen subset of questions, we investigated the following filtering
+criteria for the difficulty range of the questions:
+
+1. **Default Range**: 0.25 < Difficulty < 0.85
+2. **Wider Range**: 0.20 < Difficulty < 0.90
+3. **Widest Range**: 0.20 < Difficulty < 0.95
+
+We found that the **Widest Range** (0.20 < Difficulty < 0.95) yielded the most useful set of questions (i.e., with the
+best "discrimination power" between the 2 skill levels). Additionally, we also experimented with choosing 1 or 2
+questions per block. We found that choosing just 1 question per block is ideal, as it yields the absolute best
+question set, while also keeping the survey short enough to used in follow-up studies that we are interested in.
+
+The final set of "optimal" questions according to top-1 per block, using the **Widest Range** difficulty criteria is:
+
+| Question ID | Difficulty | Discrimination Index |
+|-------------|------------|----------------------|
+| Q3.4        | 	0.78      | 	0.06                |
+| Q4.6	       | 0.82       | 	0.50                |
+| Q5.2	       | 0.83       | 	0.65                |
+| Q6.5	       | 0.84       | 	0.60                |
+| Q7.1	       | 0.88       | 	0.81                |
+| Q8.2	       | 0.78       | 	0.40                |
+| Q9.5        | 	0.76      | 	0.30                |
+| Q10.1       | 	0.87      | 	0.45                |
+
+> **Note**: The difficulty and discrimination index values are derived from the analysis of the survey results.
+> The difficulty index is a measure of how challenging a question is, while the discrimination index indicates how well
+> a question can differentiate between participants of different skill levels.
+> In terms of interpretation, the following ranges can be used:
+> - **0.00 - 0.19/0.2**: Weak discriminator / Should be replaced
+> - **0.20 - 0.29**: Acceptable discriminator
+> - **>= 0.30**: Strong discriminator
+>
+> As such, the only question that is not a strong discriminator is Q3.4, which is a general programming question.
 
 ---
 
