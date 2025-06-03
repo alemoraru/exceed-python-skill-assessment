@@ -23,9 +23,9 @@ at Delft University of Technology, part of the **Web Information Systems** resea
 │   ├── survey_answers.csv
 │   └── survey_results.csv
 ├── notebooks/
-│   ├── 00_high_level_analysis.ipynb
-│   ├── 01_detailed_analysis.ipynb
-│   ├── 02_visualisation.ipynb
+│   ├── 01_high_level_analysis.ipynb
+│   ├── 02_detailed_analysis.ipynb
+│   ├── 03_visualisation.ipynb
 │   └── requirements.txt
 ├── survey/
 │   ├── old_md_versions/
@@ -97,8 +97,8 @@ at Delft University of Technology, part of the **Web Information Systems** resea
 4. **Launch Jupyter** and run the notebooks top‑to‑bottom
 
    ```bash
-   jupyter lab 00_high_level_analysis.ipynb
-   jupyter lab 01_detailed_analysis.ipynb
+   jupyter lab 01_high_level_analysis.ipynb
+   jupyter lab 02_detailed_analysis.ipynb
    jupyter lab 02_visualisation.ipynb
    ```
    Alternatively, you can of course run the notebooks within VS Code or any other Jupyter-compatible IDE
