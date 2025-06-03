@@ -102,16 +102,14 @@ Some of the key findings include:
 - **Correlation between general programming YoE and actual correct answers**: 0.06 (very weak positive correlation)
 - **Correlation between estimated correct answers and actual correct answers**: 0.37 (quite weak positive correlation)
 
-### 3. Visualisation
+### 3. Visualization
 
-The third notebook (`03_visualisation.ipynb`) provides visualisations of some of the survey results.
+The third notebook (`03_visualisation.ipynb`) provides visualizations of some of the survey results.
+In includes boxplots, histograms, and other visualizations. For example, consider the following boxplots:
 
-For instance, we can visualize the distribution of Python years of experience (YoE) and reported "Dreyfus skill levels":
-![Python YoE vs. Dreyfus Boxplots](data/images/python-yoe-dreyfus-boxplots.png)
-
-Additionally, we can visualize the distribution of Python YoE and general programming YoE:
-
-![Python YoE vs. General Programming YoE](data/images/python-general-yoe-boxplot.png)
+| Python YoE vs. General Programming YoE                                                | Python YoE vs. Dreyfus Skill Level                                                 |
+|---------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| ![Python YoE vs. General Programming YoE](data/images/python-general-yoe-boxplot.png) | ![Python YoE vs. Dreyfus Skill Level](data/images/python-yoe-dreyfus-boxplots.png) |
 
 Alternatively, we can also check the distribution of Python YoE and general programming YoE with the following table:
 
@@ -119,6 +117,43 @@ Alternatively, we can also check the distribution of Python YoE and general prog
 |--------------|-------|-------|------|-----|-----|-----|------|-----|
 | Python YoE   | 60	   | 5.7   | 4.55 | 1   | 3   | 5   | 6.25 | 20  |
 | General YoE  | 60	   | 12.76 | 9.40 | 2   | 7   | 10  | 18   | 38  |
+
+### 4. Observations
+
+Within this survey, some questions were intentionally designed to be ambiguous or tricky. Unfortunately, in some cases,
+the actual answers were heavily dependent on the interpretation of the question, which led to some confusion. For this
+reason, for some questions it was technically possible to consider multiple answers as correct (more specifically 2
+options out of 4 were considered correct for some questions). This was done to avoid penalising participants for
+thinking differently. In this section we will list the questions where this was the case, along with the correct
+answers:
+
+- **Q8.6** Based only on the error message below, which option best explains the cause of the error?
+
+    ```
+    Traceback (most recent call last):
+    File "main.py", line 3, in <module>
+        my_list.remove(10)
+    ValueError: list.remove(x): x not in list
+    ```
+
+    - A) The list `my_list` is empty, therefore nothing can be removed
+    - B) The value of `x` is not found in `my_list`, so it can't be removed
+    - C) You must assign the result of `.remove()` to a new variable
+    - D) The value of `10` is not found in `my_list`, so it can't be removed
+
+  > **Correct Answers**: while the original question only had option D as correct, we considered both B and D as correct
+
+- **Q9.5** You're writing a program that uses a dictionary to store user preferences. You try to access a key that you
+  _know_ exists in the dictionary, but your code throws a `KeyError`. What is the MOST likely reason for this, given the
+  limited context?
+
+    - A) The key might have been altered or removed elsewhere in the code
+    - B) The key is actually a string, but you’re trying to access it with an integer
+    - C) There’s a typo in the key you are trying to access (e.g., `"User"` vs `"user"`), or the case sensitivity is
+      different than expected
+    - D) Dictionaries can sometimes fail to locate keys due to internal hashing bugs or collisions
+
+  > **Correct Answers**: while the original question only had option C as correct, we considered both A and C as correct
 
 ---
 
