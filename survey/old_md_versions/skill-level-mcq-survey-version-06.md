@@ -1,8 +1,9 @@
 # Programming Skill Level MCQ Survey - Version 5
 
-This survey is designed to assess your understanding and ability to identify, understand, and resolve common programming errors across general and Python-specific contexts. Each question has only one correct answer.
+This survey is designed to assess your understanding and ability to identify, understand, and resolve common programming
+errors across general and Python-specific contexts. Each question has only one correct answer.
 
-### Pre-Examination
+## Pre-Examination
 ---
 
 **How would you describe your experience in Python**
@@ -12,7 +13,7 @@ This survey is designed to assess your understanding and ability to identify, un
 - Practical experience, small projects or assignments. Grasping basic concepts, and troubleshooting independently.
 - Experience with projects. Able to independently plan and execute tasks, proficient with Python's libraries.
 - Experience in complex projects. Deep understanding, ability to conciously resolve difficult problems.
-- Significant experience in larger complex programs. Solves complex problems effortlessly and subconsciously. 
+- Significant experience in larger complex programs. Solves complex problems effortlessly and subconsciously.
 
 ### General Programming Error Understanding
 ---
@@ -23,31 +24,31 @@ This survey is designed to assess your understanding and ability to identify, un
     - C) To notify the programmer that something is wrong in the code during compilation or execution
     - D) To suggest optimizations for better performance
 
-    Correct Answer: C)
+   Correct Answer: C)
 
 2. **Which of the following statements best describes what a syntax error indicates?**
-   - A) The program logic is incorrect
-   - B) There's an issue with variable naming conventions
-   - C) The code does not conform to the rules of the language grammar
-   - D) A file or resource cannot be found
+    - A) The program logic is incorrect
+    - B) There's an issue with variable naming conventions
+    - C) The code does not conform to the rules of the language grammar
+    - D) A file or resource cannot be found
 
    Correct Answer: C)
 
 3. **What typically triggers a runtime error?**
-   - A) Improper indentation in Python
-   - B) Trying to divide by zero
-   - C) Using an undefined variable name
-   - D) Missing semicolons at the end of statements (in languages that require them)
+    - A) Improper indentation in Python
+    - B) Trying to divide by zero
+    - C) Using an undefined variable name
+    - D) Missing semicolons at the end of statements (in languages that require them)
 
-    Correct Answer: B)
+   Correct Answer: B)
 
 4. **What are semantic/logical errors?**
-   - A) Errors detected by the compiler during code compilation
-   - B) Errors where the program runs without errors but produces undesirable results
-   - C) Errors due to syntax mistakes like missing parentheses
-   - D) Errors related to file system permissions
+    - A) Errors detected by the compiler during code compilation
+    - B) Errors where the program runs without errors but produces undesirable results
+    - C) Errors due to syntax mistakes like missing parentheses
+    - D) Errors related to file system permissions
 
-    Correct Answer: B)
+   Correct Answer: B)
 
 5. **What does a "type mismatch" error usually indicate?**
     - A) The function has too many return statements
@@ -55,7 +56,7 @@ This survey is designed to assess your understanding and ability to identify, un
     - C) A value is assigned or passed that doesn’t match the expected data type
     - D) The code is missing a necessary import or include
 
-    Correct Answer: C)
+   Correct Answer: C)
 
 6. **What distinguishes a compilation error from an interpretation error?**
     - A) Compilation errors occur at runtime, interpretation errors do not
@@ -63,7 +64,7 @@ This survey is designed to assess your understanding and ability to identify, un
     - C) Compilation errors occur before execution; interpretation errors may happen during execution
     - D) They are the same; the terms are interchangeable
 
-    Correct Answer: C)
+   Correct Answer: C)
 
 7. **Why might a program fail to compile even if the logic seems correct?**
     - A) The output is not what was expected
@@ -71,40 +72,40 @@ This survey is designed to assess your understanding and ability to identify, un
     - C) The code violates the language's grammar rules
     - D) The program takes too long to execute
 
-    Correct Answer: C)
+   Correct Answer: C)
 
 ### Python-Specific General Error Understanding
 ---
 
 8. **Which error message typically indicates that a Python variable has not been defined?**
-   - A) `SyntaxError: invalid syntax`
-   - B) `NameError: name 'x' is not defined`
-   - C) `TypeError: unsupported operand type(s)`
-   - D) `IndentationError: expected an indented block`
+    - A) `SyntaxError: invalid syntax`
+    - B) `NameError: name 'x' is not defined`
+    - C) `TypeError: unsupported operand type(s)`
+    - D) `IndentationError: expected an indented block`
 
-    Correct Answer: B)
+   Correct Answer: B)
 
 9. **What does the following Python error message indicate?**
    ```python
    TypeError: can only concatenate str (not "int") to str
    ```
-   - A) The code tries to open a file that doesn't exist
-   - B) Two incompatible types are being combined without explicit conversion
-   - C) A variable is used before it has been assigned a value
-   - D) There's an issue with function call syntax
+    - A) The code tries to open a file that doesn't exist
+    - B) Two incompatible types are being combined without explicit conversion
+    - C) A variable is used before it has been assigned a value
+    - D) There's an issue with function call syntax
 
-    Correct Answer: B)
+   Correct Answer: B)
 
 10. **What does the following Python error message indicate?**
    ```python
    IndexError: list index out of range
    ```
-   - A) The code attempts to access an element outside the boundaries of a list
-   - B) An invalid data type is being used in a string formatting operation
-   - C) The code does not have enough elements in a list to perform the operation
-   - D) A syntax error related to list comprehension
+- A) The code attempts to access an element outside the boundaries of a list
+- B) An invalid data type is being used in a string formatting operation
+- C) The code does not have enough elements in a list to perform the operation
+- D) A syntax error related to list comprehension
 
-   Correct Answer: A)
+Correct Answer: A)
 
 11. **What does the following Python error message indicate?**
     ```python
@@ -162,27 +163,30 @@ This survey is designed to assess your understanding and ability to identify, un
     4: greet(John)
     ```
 
-    - A) Line 1: Function definition error  
-    - B) Line 2: Concatenation type mismatch  
-    - C) Line 4: `John` is not defined (Name error)  
+    - A) Line 1: Function definition error
+    - B) Line 2: Concatenation type mismatch
+    - C) Line 4: `John` is not defined (Name error)
     - D) Line 4: John is treated as a function but is not defined
 
     Correct Answer: C)
 
-16. **The following code snippet is known to include an issue that will cause an error when executed. Choose the option that correctly identifies the type of error that will be produced.**
+16. **The following code snippet is known to include an issue that will cause an error when executed. Choose the option
+    that correctly identifies the type of error that will be produced.**
 
    ```python
    x = "100a"
-   y = int(x)
+y = int(x)
    ```
-   - A) `ValueError: invalid literal for int() with base 10: '100a'`  
-   - B) `TypeError: int() cannot convert letters to integers`
-   - C) `SyntaxError: invalid syntax`  
-   - D) `NameError: name 'x' is not defined`
 
-   Correct Answer: A)
+- A) `ValueError: invalid literal for int() with base 10: '100a'`
+- B) `TypeError: int() cannot convert letters to integers`
+- C) `SyntaxError: invalid syntax`
+- D) `NameError: name 'x' is not defined`
 
-17. **The following code snippet is known to include an issue that will cause an error when run. Identify the line and type of error that will be produced when the code is executed.**
+Correct Answer: A)
+
+17. **The following code snippet is known to include an issue that will cause an error when run. Identify the line and
+    type of error that will be produced when the code is executed.**
 
     ```python
     1: x = 10
@@ -190,41 +194,43 @@ This survey is designed to assess your understanding and ability to identify, un
     3:     print("x is greater than 5")
     ```
 
-    - A) Line 1: `NameError` due to undefined variable  
+    - A) Line 1: `NameError` due to undefined variable
     - B) Line 2: `SyntaxError` due to missing colon
     - C) Line 2: SyntaxError due to extra comparison
     - D) Line 3: `IndentationError` due to wrong indent
 
     Correct Answer: B)
 
-18. **Given the following code snippet, what is the most likely error message one will receive when trying to execute it.**
+18. **Given the following code snippet, what is the most likely error message one will receive when trying to execute
+    it.**
 
     ```python
     x = [1, 2, 3]
     print(x[3])
     ```  
-    - A) `IndexError: list index out of range`  
-    - B) `TypeError: list index must be an integer`  
-    - C) `TypeError: 'list' object is not callable`  
+    - A) `IndexError: list index out of range`
+    - B) `TypeError: list index must be an integer`
+    - C) `TypeError: 'list' object is not callable`
     - D) `NameError: name 'x' is not defined`
 
     Correct Answer: A)
 
-19. **Read the code snippet below, and identify the error that is present.** 
+19. **Read the code snippet below, and identify the error that is present.**
 
     ```python
     data = {"key": "value"
     print(data["key"])
     ```  
 
-    - A) `KeyError: 'key'` 
-    - B) `SyntaxError: unexpected EOF while parsing`  
-    - C) `SyntaxError: missing colon in dictionary key-value pair`  
+    - A) `KeyError: 'key'`
+    - B) `SyntaxError: unexpected EOF while parsing`
+    - C) `SyntaxError: missing colon in dictionary key-value pair`
     - D) `TypeError: 'dict' object is not callable`
 
     Correct Answer: B)
 
-20. **Given the following code snippet, what is the most likely error message one will receive when trying to execute it?**
+20. **Given the following code snippet, what is the most likely error message one will receive when trying to execute
+    it?**
 
     ```python
     x = "5"
@@ -232,14 +238,15 @@ This survey is designed to assess your understanding and ability to identify, un
     print(x - y)
     ```  
 
-    - A) `TypeError: unsupported operand type(s) for -: 'str' and 'int'`  
-    - B) `TypeError: cannot perform subtraction between string and number`  
-    - C) `ValueError: cannot subtract string from int`  
+    - A) `TypeError: unsupported operand type(s) for -: 'str' and 'int'`
+    - B) `TypeError: cannot perform subtraction between string and number`
+    - C) `ValueError: cannot subtract string from int`
     - D) `IndexError: invalid index operation`
 
     Correct Answer: A)
 
-21. **The following code snippet produces an error and does not execute correctly. Pick the answer that represents the most likely error.**
+21. **The following code snippet produces an error and does not execute correctly. Pick the answer that represents the
+    most likely error.**
 
     ```python
     def foo():
@@ -251,9 +258,9 @@ This survey is designed to assess your understanding and ability to identify, un
     foo()
     ```
 
-    - A) `IndentationError: unindent does not match any outer indentation level.` 
-    - B) `IndentationError: expected an indented block after 'if' statement`  
-    - C) `NameError: x is not defined`  
+    - A) `IndentationError: unindent does not match any outer indentation level.`
+    - B) `IndentationError: expected an indented block after 'if' statement`
+    - C) `NameError: x is not defined`
     - D) `TypeError: unsupported operand type(s)`
 
     Correct Answer: A)
@@ -261,7 +268,8 @@ This survey is designed to assess your understanding and ability to identify, un
 ### Error Resolution
 ---
 
-22. **The following code snippet is known to include an issue that will cause an error when executed. Choose the option that correctly resolves the error while maintaining the desired result.**
+22. **The following code snippet is known to include an issue that will cause an error when executed. Choose the option
+    that correctly resolves the error while maintaining the desired result.**
 
     ```python
     # Print all non-negative integers until 5 included 
@@ -269,14 +277,15 @@ This survey is designed to assess your understanding and ability to identify, un
         print(i)
     ```
 
-    - A) Remove the `for` keyword  
-    - B) Add a colon (i.e. `:`) at the end of the `for` line  
-    - C) Replace `range(6)` with `[0,5]`  
+    - A) Remove the `for` keyword
+    - B) Add a colon (i.e. `:`) at the end of the `for` line
+    - C) Replace `range(6)` with `[0,5]`
     - D) Add an `if` statement to check for non-negative integers
 
     Correct Answer: B)
 
-23. **The following code produces an error when executed. Which change would fix the error while preserving the intended behavior described in the docstrings?**
+23. **The following code produces an error when executed. Which change would fix the error while preserving the intended
+    behavior described in the docstrings?**
 
     ```python
     def sum_list(lst):
@@ -292,14 +301,15 @@ This survey is designed to assess your understanding and ability to identify, un
     print(sum_list([1, 2, "3", 4]))
     ```
 
-    - A) Remove the string `"3"` from the list  
-    - B) Convert each element to `int` before performing addition  
+    - A) Remove the string `"3"` from the list
+    - B) Convert each element to `int` before performing addition
     - C) Use a try block around the loop to skip the error
     - D) Remove the for loop and use `sum(lst)` instead
 
     Correct Answer: B)
 
-24. **The following code produces an error when executed. Which change would fix the error while preserving the intended behavior described in the docstrings?**
+24. **The following code produces an error when executed. Which change would fix the error while preserving the intended
+    behavior described in the docstrings?**
 
     ```python
     def power(base, exponent):
@@ -312,14 +322,15 @@ This survey is designed to assess your understanding and ability to identify, un
     print(power(2))
     ```
 
-    - A) Remove the exponent parameter from the function definition  
-    - B) Provide a default value for the exponent  
+    - A) Remove the exponent parameter from the function definition
+    - B) Provide a default value for the exponent
     - C) Rename the function to avoid conflicts with built-ins
     - D) Change the operator to multiplication (i.e. `*`) instead of exponentiation (i.e. `**`)
 
     Correct Answer: B)
 
-25. **The `countdown` function below sometimes results in an error when called with certain inputs. Which change would fix the error while preserving the function’s intended behavior, as described in the docstrings?**
+25. **The `countdown` function below sometimes results in an error when called with certain inputs. Which change would
+    fix the error while preserving the function’s intended behavior, as described in the docstrings?**
 
     ```python
     def countdown(n):
@@ -336,13 +347,14 @@ This survey is designed to assess your understanding and ability to identify, un
     ```
 
     - A) Change the base case to `if n <= 0:`
-    - B) Add a default value for `n` 
+    - B) Add a default value for `n`
     - C) Change the `else` statement to an `elif` statement
     - D) Replace recursion with an iterative `for` loop approach
 
     Correct Answer: A)
 
-26. **The following Python code does not correctly print the double of a number. Choose the option that best resolves the logical error while maintaining the intended functionality.**
+26. **The following Python code does not correctly print the double of a number. Choose the option that best resolves
+    the logical error while maintaining the intended functionality.**
 
     ```python
     double = lambda x: x * 2
@@ -351,12 +363,13 @@ This survey is designed to assess your understanding and ability to identify, un
 
     - A) Surround `x * 2` with `print()`
     - B) Replace `lambda` with `def` to make it work
-    - C) Call the `double` function by adding parentheses with an argument 
+    - C) Call the `double` function by adding parentheses with an argument
     - D) Remove the `lambda` and just write `x * 2`
 
     Correct Answer: C)
 
-27. **The `first_char` function below sometimes results in an error when called with certain inputs. Which change would fix the error while preserving the function’s intended behavior, as described in the docstrings?**
+27. **The `first_char` function below sometimes results in an error when called with certain inputs. Which change would
+    fix the error while preserving the function’s intended behavior, as described in the docstrings?**
 
     ```python
     def first_char(s):
@@ -379,7 +392,8 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-28. **The code below is intended to apply a square function to each number within a list, but it raises an error. Choose the correct fix that maintains the logic.**
+28. **The code below is intended to apply a square function to each number within a list, but it raises an error. Choose
+    the correct fix that maintains the logic.**
 
     ```python
     nums = [1, 2, 3]
@@ -394,7 +408,6 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-
 ### Code Reading / Understanding
 ---
 
@@ -408,13 +421,15 @@ This survey is designed to assess your understanding and ability to identify, un
     ```
 
     - A) The code contains a syntax error and won't run properly
-    - B) The condition should use `or` instead of `and`, because `and` forces evaluation of both sides of the condition, which throws an error
-    - C) Division by zero error is avoided due to short-circuit logic 
+    - B) The condition should use `or` instead of `and`, because `and` forces evaluation of both sides of the condition,
+      which throws an error
+    - C) Division by zero error is avoided due to short-circuit logic
     - D) The code contains a `TypeError` as `"0"` can be ambiguously interpreted to different primitive types
 
     Correct Answer: C)
 
-30. **Read the code snippet below and identify which code line is logically wrong when computing the area of a rectangle.**
+30. **Read the code snippet below and identify which code line is logically wrong when computing the area of a
+    rectangle.**
 
     ```python
     1: def area_rectangle(length, width):
@@ -424,9 +439,9 @@ This survey is designed to assess your understanding and ability to identify, un
     5: area_rectangle(5, 10)
     ```
 
-    - A) Line 2 – Incorrect docstring format  
-    - B) Line 3 – Incorrect multiplication operator  
-    - C) Line 4 – Print statement formatting error  
+    - A) Line 2 – Incorrect docstring format
+    - B) Line 3 – Incorrect multiplication operator
+    - C) Line 4 – Print statement formatting error
     - D) No line; the code is logically correct
 
     Correct Answer: D)
@@ -441,7 +456,7 @@ This survey is designed to assess your understanding and ability to identify, un
     print(message)
     ```
 
-    - A) `Hello, World!` followed by `None`  
+    - A) `Hello, World!` followed by `None`
     - B) An error because the function returns nothing
     - C) Two lines of `Hello, World!`
     - D) Only `Hello, World!`
@@ -458,9 +473,9 @@ This survey is designed to assess your understanding and ability to identify, un
     print(result)
     ```
 
-    - A) `True`  
-    - B) `False`  
-    - C) An error, because `==` is incorrectly used instead of `=`  
+    - A) `True`
+    - B) `False`
+    - C) An error, because `==` is incorrectly used instead of `=`
     - D) Nothing, as the code contains an error
 
     Correct Answer: A)
@@ -480,7 +495,7 @@ This survey is designed to assess your understanding and ability to identify, un
     ```
 
     - A) `a is equal to b`
-    - B) `b is equal to a`  
+    - B) `b is equal to a`
     - C) `a is not equal to b`
     - D) Nothing, as the code contains an error
 
@@ -511,8 +526,8 @@ This survey is designed to assess your understanding and ability to identify, un
         print("Condition not met")
     ```
 
-    - A) `Condition met`  
-    - B) `Condition not met`  
+    - A) `Condition met`
+    - B) `Condition not met`
     - C) No output, since there is an error with the logical operators
     - D) No errors, but also no output
 
@@ -635,9 +650,10 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-###  Natural Language Scenarios
+### Natural Language Scenarios
 
-43. **You write a program to calculate the average of three numbers entered by the user. The code runs without crashing, but the result is slightly incorrect each time. What is the MOST likely cause for this, given the limited context?**
+43. **You write a program to calculate the average of three numbers entered by the user. The code runs without crashing,
+    but the result is slightly incorrect each time. What is the MOST likely cause for this, given the limited context?**
 
     - A) A `SyntaxError` caused the wrong result to be stored.
     - B) A `TypeError` occurred when dividing numbers.
@@ -646,7 +662,9 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: C)
 
-44. **You're debugging a program that initially throws a `NameError`. You fix it, but the same error pops up again after later code changes in subsequent code runs. What is the MOST likely explanation for this, given the limited context?**
+44. **You're debugging a program that initially throws a `NameError`. You fix it, but the same error pops up again after
+    later code changes in subsequent code runs. What is the MOST likely explanation for this, given the limited context?
+    **
 
     - A) Your fix introduced a dependency that wasn't fully resolved elsewhere in the code.
     - B) `NameError`s will reappear unless the variable type is explicitly declared.
@@ -655,7 +673,8 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: C)
 
-45. **You're combining a number and a string using the `+` operator in Python, but it throws a `TypeError`. What concept do you need to understand to resolve this?**
+45. **You're combining a number and a string using the `+` operator in Python, but it throws a `TypeError`. What concept
+    do you need to understand to resolve this?**
 
     - A) How Python prioritizes operators in mixed expressions.
     - B) How Python distinguishes between different data types and converts them.
@@ -664,7 +683,9 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-46. **You write a function to calculate the average of a list of numbers. The function returns the correct result when you use it with small lists, but it crashes with an `IndexError` when used on a very large list. What is the MOST likely reason for this, given the limited context?**
+46. **You write a function to calculate the average of a list of numbers. The function returns the correct result when
+    you use it with small lists, but it crashes with an `IndexError` when used on a very large list. What is the MOST
+    likely reason for this, given the limited context?**
 
     - A) Python’s internal list functions don’t support large datasets by default.
     - B) The function contains assumptions about list size or structure that don’t hold for all inputs.
@@ -673,25 +694,32 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: B)
 
-47. **You're writing a program that uses a dictionary to store user preferences.  You try to access a key that you _know_ exists in the dictionary, but your code throws a `KeyError`. What is the MOST likely reason for this, given the limited context?**
+47. **You're writing a program that uses a dictionary to store user preferences. You try to access a key that you _know_
+    exists in the dictionary, but your code throws a `KeyError`. What is the MOST likely reason for this, given the
+    limited context?**
 
     - A) The key might have been altered or removed elsewhere in the code
     - B) The key is actually a string, but you’re trying to access it with an integer
-    - C) There’s a typo in the key you are trying to access (e.g., `"User"` vs `"user"`), or the case sensitivity is different than expected
+    - C) There’s a typo in the key you are trying to access (e.g., `"User"` vs `"user"`), or the case sensitivity is
+      different than expected
     - D) Dictionaries can sometimes fail to locate keys due to internal hashing bugs or collisions
 
     Correct Answer: C)
 
-48. **You're iterating through a list of strings and calling a method on each, but receive an `AttributeError`. What is the MOST likely reason for this, given the limited context?**
+48. **You're iterating through a list of strings and calling a method on each, but receive an `AttributeError`. What is
+    the MOST likely reason for this, given the limited context?**
 
     - A) The `for` loop is incorrectly structured and is causing unexpected behavior
-    - B) You're attempting to access or call something (a method or attribute) that isn't available for the type of object you’re working with
+    - B) You're attempting to access or call something (a method or attribute) that isn't available for the type of
+      object you’re working with
     - C) The strings in your list are actually integers disguised as strings
     - D) `AttributeError` only occurs when using recursion
 
     Correct Answer: B)
 
-49. **You’re writing a program that uses recursion to calculate the factorial of a number.  The program works correctly for small numbers, but crashes with a `RecursionError` on large inputs. What’s the MOST likely reason for this, given the limited context?**
+49. **You’re writing a program that uses recursion to calculate the factorial of a number. The program works correctly
+    for small numbers, but crashes with a `RecursionError` on large inputs. What’s the MOST likely reason for this,
+    given the limited context?**
 
     - A) `RecursionError` is usually caused by defining `for` loops incorrectly
     - B) The base case is incorrectly written, causing infinite recursion
@@ -716,8 +744,9 @@ This survey is designed to assess your understanding and ability to identify, un
     result = find_max([-10, -5, -3])
     ```
 
-    - A) It incorrectly returns the wrong number instead of the maximum value due to improper initialization of `max_val` 
-    - B) The for-loop is structured incorrectly as it does not iterate through all of the array's values 
+    - A) It incorrectly returns the wrong number instead of the maximum value due to improper initialization of
+      `max_val`
+    - B) The for-loop is structured incorrectly as it does not iterate through all of the array's values
     - C) It raises an exception due to negative values being present in the list
     - D) There is no logical error present; the code correctly assigns the value of `-3` to the `result` variable
 
@@ -745,7 +774,8 @@ This survey is designed to assess your understanding and ability to identify, un
 
     Correct Answer: A)
 
-52. **Read the code snippet below. The `process_data` function can sometimes encounter an error during execution. Which option correctly identifies the cause and suggests a valid fix?**
+52. **Read the code snippet below. The `process_data` function can sometimes encounter an error during execution. Which
+    option correctly identifies the cause and suggests a valid fix?**
 
     ```python
     def process_data(data_list):
@@ -781,9 +811,9 @@ This survey is designed to assess your understanding and ability to identify, un
     print(get_value(d, "c"))
     ```  
 
-    - A) `KeyError: 'c'` 
+    - A) `KeyError: 'c'`
     - B) `SyntaxError: invalid syntax`
-    - C) `NameError: name 'd' is not defined`  
+    - C) `NameError: name 'd' is not defined`
     - D) `TypeError: 'dict' object is not callable`
 
     Correct Answer: A)
@@ -796,14 +826,15 @@ This survey is designed to assess your understanding and ability to identify, un
         print("x is ten")
     ```
 
-    - A) The condition should be wrapped in parentheses  
-    - B) The print statement is incorrect  
+    - A) The condition should be wrapped in parentheses
+    - B) The print statement is incorrect
     - C) The variable `x` is compared to an integer instead of a string
     - D) Assignment operator is used insted of comparison operator
 
     Correct Answer: D)
 
-55. **The code snippet below raises an error and does not compute the sum of the list correctly. Choose the option that both fixes the error and ensures the correct sum (10) is printed on line 6.**
+55. **The code snippet below raises an error and does not compute the sum of the list correctly. Choose the option that
+    both fixes the error and ensures the correct sum (10) is printed on line 6.**
 
     ```python
     def sum_list(lst):
@@ -814,9 +845,9 @@ This survey is designed to assess your understanding and ability to identify, un
     print(sum_list([1, 2, "3", 4]))
     ```
 
-    - A) Remove the string `"3"` from the list  
-    - B) Cast each element to an `int` before addition  
-    - C) Change the function name to `total_sum`  
+    - A) Remove the string `"3"` from the list
+    - B) Cast each element to an `int` before addition
+    - C) Change the function name to `total_sum`
     - D) Remove the `for` loop
 
     Correct Answer: B)
@@ -834,16 +865,17 @@ This survey is designed to assess your understanding and ability to identify, un
     obj.display()
     ```  
 
-    - A) `SyntaxError: invalid syntax`  
-    - B) `NameError: name 'self' is not defined`  
-    - C) `AttributeError: 'MyClass' object has no attribute 'display'`  
-    - D) `TypeError: MyClass.display() takes 0 positional arguments but 1 was given` 
+    - A) `SyntaxError: invalid syntax`
+    - B) `NameError: name 'self' is not defined`
+    - C) `AttributeError: 'MyClass' object has no attribute 'display'`
+    - D) `TypeError: MyClass.display() takes 0 positional arguments but 1 was given`
 
     Correct Answer: D)
 
 ### Post-Examination
 ---
 
-**Take a moment to reflect on your responses. Approximately how many of the 52 questions do you think you got right?  Please provide your best guess as a number from 0 to 68.**
+**Take a moment to reflect on your responses. Approximately how many of the 16 questions do you think you got right?
+Please provide your best guess as a number from 0 to 56.**
 
 Answer: 
