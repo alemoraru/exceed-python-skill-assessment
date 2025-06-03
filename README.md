@@ -15,7 +15,7 @@ at Delft University of Technology, part of the **Web Information Systems** resea
 
 ---
 
-## Folder structure
+## 🗂️ Folder structure
 
 ```
 ├── data/
@@ -37,7 +37,7 @@ at Delft University of Technology, part of the **Web Information Systems** resea
 
 * **data/** – Raw and cleaned survey data files. The `survey_results.csv` file contains the anonymised responses,
   while `survey_answers.csv` includes the raw answers with question IDs (the actual answers are label-encoded).
-  Additionally, the `processed/` subfolder contains some intermediate data files used during the analysis, which are 
+  Additionally, the `processed/` subfolder contains some intermediate data files used during the analysis, which are
   also used for visualisation and scoring in the notebooks.
 * **notebooks/** – Fully runnable notebooks that replicate every table, figure, and metric pertaining to the Qualtrics
   Python skill level assessment. The `requirements.txt` file lists the Python dependencies needed to run them.
@@ -48,7 +48,7 @@ at Delft University of Technology, part of the **Web Information Systems** resea
 
 ---
 
-## Qualtrics survey block composition
+## 🤨 Qualtrics survey block composition
 
 | Block ID     | Question IDs | Theme / purpose                                                                                                                           |
 |--------------|--------------|-------------------------------------------------------------------------------------------------------------------------------------------|
@@ -71,7 +71,58 @@ at Delft University of Technology, part of the **Web Information Systems** resea
 
 ---
 
-## Running the notebooks
+## 🔎 Highlights - Findings & Results
+
+This section summarises the key findings from the analysis notebooks. For more details, please refer to the notebooks.
+The findings here reflect the analysis of the results collected as of June 2nd, 2025.
+
+### 1. High-Level Analysis
+
+The first notebook (`01_high_level_analysis.ipynb`) provides an overview of the survey results, including:
+
+- **Total Participants**: 78
+- **Completed Surveys**: 60
+- **Median Duration of Completion**: 986.5 seconds (approx. 16 minutes)
+- **Average Python YoE**: 5.7
+- **Average General Programming YoE**: 12.7
+- **Average estimated correct answers**: 12.2 out of 16
+- **Correlation between Python YoE and general programming YoE**: 0.55 (moderate positive correlation - expected)
+- **Correlation between Python YoE and estimated correct answers**: 0.24 (weak positive correlation - surprising)
+- **Correlation between general programming YoE and estimated correct answers**: 0.03 (very weak positive correlation -
+  surprising)
+
+### 2. Detailed Analysis
+
+The second notebook (`02_detailed_analysis.ipynb`) explores the actual performance of participants and provides
+means to rank the survey's questions by difficulty, and ability to discriminate between different skill levels.
+Some of the key findings include:
+
+- **Average Correct Answers**: 10.64 out of 16
+- **Correlation between Python YoE and actual correct answers**: 0.29 (weak positive correlation)
+- **Correlation between general programming YoE and actual correct answers**: 0.06 (very weak positive correlation)
+- **Correlation between estimated correct answers and actual correct answers**: 0.37 (quite weak positive correlation)
+
+### 3. Visualisation
+
+The third notebook (`03_visualisation.ipynb`) provides visualisations of some of the survey results.
+
+For instance, we can visualize the distribution of Python years of experience (YoE) and reported "Dreyfus skill levels":
+![Python YoE vs. Dreyfus Boxplots](data/images/python-yoe-dreyfus-boxplots.png)
+
+Additionally, we can visualize the distribution of Python YoE and general programming YoE:
+
+![Python YoE vs. General Programming YoE](data/images/python-general-yoe-boxplot.png)
+
+Alternatively, we can also check the distribution of Python YoE and general programming YoE with the following table:
+
+| YoE Category | count | mean  | std  | min | 25% | 50% | 75%  | max |
+|--------------|-------|-------|------|-----|-----|-----|------|-----|
+| Python YoE   | 60	   | 5.7   | 4.55 | 1   | 3   | 5   | 6.25 | 20  |
+| General YoE  | 60	   | 12.76 | 9.40 | 2   | 7   | 10  | 18   | 38  |
+
+---
+
+## 🏃🏻 Running the notebooks
 
 1. **Clone or fork** the repo
 
@@ -106,7 +157,7 @@ at Delft University of Technology, part of the **Web Information Systems** resea
 
 ---
 
-## Licensing
+## 🪪 Licensing
 
 | Component                                                       | License                     |
 |-----------------------------------------------------------------|-----------------------------|
