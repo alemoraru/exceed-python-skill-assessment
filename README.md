@@ -196,6 +196,12 @@ The final set of "optimal" questions according to top-1 per block, using the **W
 
 ---
 
+Given the previous findings, it would be ideal to actually drop the Q3.4 question from the final set, as it is not a
+strong skill level discriminator. To that end, we propose to replace it with the second-best question from the set of
+all questions in all blocks, which has not been selected yet. 
+
+---
+
 ## 🏃🏻 Running the notebooks
 
 1. **Clone or fork** the repo
