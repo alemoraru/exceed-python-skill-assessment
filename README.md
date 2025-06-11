@@ -143,7 +143,7 @@ answers:
     - C) You must assign the result of `.remove()` to a new variable
     - D) The value of `10` is not found in `my_list`, so it can't be removed
 
-  > **Correct Answers**: while the original question only had option D as correct, we considered both B and D as correct
+  > **Correct Answers**: while the original question only had option **D** as correct, we considered both **B** and **D** as correct
 
 - **Q9.5** You're writing a program that uses a dictionary to store user preferences. You try to access a key that you
   _know_ exists in the dictionary, but your code throws a `KeyError`. What is the MOST likely reason for this, given the
@@ -155,7 +155,7 @@ answers:
       different than expected
     - D) Dictionaries can sometimes fail to locate keys due to internal hashing bugs or collisions
 
-  > **Correct Answers**: while the original question only had option C as correct, we considered both A and C as correct
+  > **Correct Answers**: while the original question only had option **C** as correct, we considered both **A** and **C** as correct
 
 ### 5. Conclusion
 
@@ -220,7 +220,7 @@ Taking a greedy approach, we can select the best question from the above list, w
 and a discrimination index of 0.51. As such, the final set of questions that we recommend for the skill-assessment
 survey is the following:
 
-### Final Recommended Questions
+### Final Recommended Questions for Python Skill Assessment Survey
 
 | Question ID | Difficulty | Discrimination Index |
 |-------------|------------|----------------------|
