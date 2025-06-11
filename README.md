@@ -143,7 +143,7 @@ answers:
     - C) You must assign the result of `.remove()` to a new variable
     - D) The value of `10` is not found in `my_list`, so it can't be removed
 
-  > **Correct Answers**: while the original question only had option D as correct, we considered both B and D as correct
+  > **Correct Answers**: while the original question only had option **D** as correct, we considered both **B** and **D** as correct
 
 - **Q9.5** You're writing a program that uses a dictionary to store user preferences. You try to access a key that you
   _know_ exists in the dictionary, but your code throws a `KeyError`. What is the MOST likely reason for this, given the
@@ -155,7 +155,7 @@ answers:
       different than expected
     - D) Dictionaries can sometimes fail to locate keys due to internal hashing bugs or collisions
 
-  > **Correct Answers**: while the original question only had option C as correct, we considered both A and C as correct
+  > **Correct Answers**: while the original question only had option **C** as correct, we considered both **A** and **C** as correct
 
 ### 5. Conclusion
 
@@ -166,12 +166,13 @@ criteria for the difficulty range of the questions:
 2. **Wider Range**: 0.20 < Difficulty < 0.90
 3. **Widest Range**: 0.20 < Difficulty < 0.95
 
-We found that the **Widest Range** (0.20 < Difficulty < 0.95) yielded the most useful set of questions (i.e., with the
-best "discrimination power" between the 2 skill levels). Additionally, we also experimented with choosing 1 or 2
-questions per block. We found that choosing just 1 question per block is ideal, as it yields the absolute best
-question set, while also keeping the survey short enough to used in follow-up studies that we are interested in.
+We found that the **Widest Range** (0.20 < Difficulty < 0.90) yielded a generally useful set of questions (i.e.,
+with acceptable "discrimination power" between the 2 skill levels). Additionally, we also experimented with
+choosing 1 or 2 questions per block. We found that choosing just 1 question per block is ideal, as it yields the
+absolute best question set, while also keeping the survey short enough to used in follow-up studies
+that we are interested in.
 
-The final set of "optimal" questions according to top-1 per block, using the **Widest Range** difficulty criteria is:
+The final set of "optimal" questions according to top-1 per block, using the **Wider Range** difficulty criteria is:
 
 | Question ID | Difficulty | Discrimination Index |
 |-------------|------------|----------------------|
@@ -197,8 +198,40 @@ The final set of "optimal" questions according to top-1 per block, using the **W
 ---
 
 Given the previous findings, it would be ideal to actually drop the Q3.4 question from the final set, as it is not a
-strong skill level discriminator. To that end, we propose to replace it with the second-best question from the set of
-all questions in all blocks, which has not been selected yet. 
+strong skill level discriminator. If we would like to still select a question from the same block (Block 3), we
+could replace it with `Q3.2`, which happens to be the best "discriminator" in that block, but which was not considered
+due to it being outside the difficulty range of 0.20 < Difficulty < 0.90 (its difficulty was 0.94).
+
+However, there are thankfully many other good candidate questions in other blocks that can be used to replace `Q3.2`.
+To that end, we propose to replace it with the second-best question from the set of all questions in all blocks,
+which has not been selected yet and are also within the acceptable difficulty range of 0.20 < Difficulty < 0.90.
+. The immediate second best questions in all blocks (excluding Block 3) are:
+
+| Question ID | Difficulty | Discrimination Index |
+|-------------|------------|----------------------|
+| Q4.4        | 	0.61      | 	0.41                |
+| Q5.7        | 	0.65      | 	0.18                |
+| Q6.2        | 	0.65      | 	0.35                |
+| Q7.2        | 	0.56      | 	0.51                |
+| Q9.3        | 	0.88      | 	0.24                |
+| Q10.5       | 	0.78      | 	0.38                |
+
+Taking a greedy approach, we can select the best question from the above list, which is `Q7.2` with a difficulty of 0.56
+and a discrimination index of 0.51. As such, the final set of questions that we recommend for the skill-assessment
+survey is the following:
+
+### Final Recommended Questions for Python Skill Assessment Survey
+
+| Question ID | Difficulty | Discrimination Index |
+|-------------|------------|----------------------|
+| Q4.6	       | 0.82       | 	0.50                |
+| Q5.2	       | 0.83       | 	0.65                |
+| Q6.5	       | 0.84       | 	0.60                |
+| Q7.1	       | 0.88       | 	0.81                |
+| Q7.2        | 	0.56      | 	0.51                |
+| Q8.2	       | 0.78       | 	0.40                |
+| Q9.5        | 	0.76      | 	0.30                |
+| Q10.1       | 	0.87      | 	0.45                |
 
 ---
 
