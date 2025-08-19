@@ -3,15 +3,14 @@
 This repository holds **everything** needed to reproduce the analyses for the 2025 Qualtrics Python proficiency
 assessment survey: the raw Qualtrics questionnaire, anonymised response data, Jupyter notebooks for cleaning / scoring,
 and several miscellaneous files that were useful during the project.
-It is one of several companion repositories for the upcoming paper within the EXCEED framework:
-*"Learning-Enhanced Variable Error expLanations."*
+It is one of several companion repositories for the upcoming paper within the EXCEED project.
 
 The research that this repository supports is part of the EXCEED Master's thesis project by **Alexandru-Radu Moraru**
 at Delft University of Technology, part of the **Web Information Systems** research group.
 
 > **Note**: The goal of the Qualtrics survey was to find a better way to objectively assess Python proficiency, while
-> centering questions around common errors, identification, resolution, and understanding, rather than general
-> programming knowledge.
+> centering questions around common errors, identification, resolution, code understanding, and general
+> programming knowledge, rather than using self-reported measures or subjective assessments.
 
 ---
 
@@ -166,15 +165,15 @@ criteria for the difficulty range of the questions:
 2. **Wider Range**: 0.20 < Difficulty < 0.90
 3. **Widest Range**: 0.20 < Difficulty < 0.95
 
-We found that the **Widest Range** (0.20 < Difficulty < 0.90) yielded a generally useful set of questions (i.e.,
-with acceptable "discrimination power" between the 2 skill levels). Additionally, we also experimented with
+We found that the **Wider Range** (0.20 < Difficulty < 0.90) yielded a generally useful set of questions (i.e.,
+with acceptable "discriminative power" between the 2 skill levels). Additionally, we also experimented with
 choosing 1 or 2 questions per block. We found that choosing just 1 question per block is ideal, as it yields the
 absolute best question set, while also keeping the survey short enough to used in follow-up studies
 that we are interested in.
 
 The final set of "optimal" questions according to top-1 per block, using the **Wider Range** difficulty criteria is:
 
-| Question ID | Difficulty | Discrimination Index |
+| Question ID | Difficulty | Discriminative Index |
 |-------------|------------|----------------------|
 | Q3.4        | 	0.78      | 	0.06                |
 | Q4.6	       | 0.82       | 	0.50                |
@@ -185,19 +184,19 @@ The final set of "optimal" questions according to top-1 per block, using the **W
 | Q9.5        | 	0.76      | 	0.30                |
 | Q10.1       | 	0.87      | 	0.45                |
 
-> **Note**: The difficulty and discrimination index values are derived from the analysis of the survey results.
-> The difficulty index is a measure of how challenging a question is, while the discrimination index indicates how well
+> **Note**: The difficulty and discriminative index values are derived from the analysis of the survey results.
+> The difficulty index is a measure of how challenging a question is, while the discriminative index indicates how well
 > a question can differentiate between participants of different skill levels.
 > In terms of interpretation, the following ranges can be used:
 > - **0.00 - 0.19/0.2**: Weak discriminator / Should be replaced
 > - **0.20 - 0.29**: Acceptable discriminator
 > - **>= 0.30**: Strong discriminator
 >
-> As such, the only question that is not a strong discriminator is Q3.4, which is a general programming question.
+> As such, the only question that is not a strong discriminator is `Q3.4`, which is a general programming question.
 
 ---
 
-Given the previous findings, it would be ideal to actually drop the Q3.4 question from the final set, as it is not a
+Given the previous findings, it would be ideal to actually drop the `Q3.4` question from the final set, as it is not a
 strong skill level discriminator. If we would like to still select a question from the same block (Block 3), we
 could replace it with `Q3.2`, which happens to be the best "discriminator" in that block, but which was not considered
 due to it being outside the difficulty range of 0.20 < Difficulty < 0.90 (its difficulty was 0.94).
@@ -207,7 +206,7 @@ To that end, we propose to replace it with the second-best question from the set
 which has not been selected yet and are also within the acceptable difficulty range of 0.20 < Difficulty < 0.90.
 . The immediate second best questions in all blocks (excluding Block 3) are:
 
-| Question ID | Difficulty | Discrimination Index |
+| Question ID | Difficulty | Discriminative Index |
 |-------------|------------|----------------------|
 | Q4.4        | 	0.61      | 	0.41                |
 | Q5.7        | 	0.65      | 	0.18                |
@@ -217,12 +216,12 @@ which has not been selected yet and are also within the acceptable difficulty ra
 | Q10.5       | 	0.78      | 	0.38                |
 
 Taking a greedy approach, we can select the best question from the above list, which is `Q7.2` with a difficulty of 0.56
-and a discrimination index of 0.51. As such, the final set of questions that we recommend for the skill-assessment
+and a discriminative index of 0.51. As such, the final set of questions that we recommend for the skill-assessment
 survey is the following:
 
 ### Final Recommended Questions for Python Skill Assessment Survey
 
-| Question ID | Difficulty | Discrimination Index |
+| Question ID | Difficulty | Discriminative Index |
 |-------------|------------|----------------------|
 | Q4.6	       | 0.82       | 	0.50                |
 | Q5.2	       | 0.83       | 	0.65                |
