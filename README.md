@@ -86,11 +86,15 @@ The first notebook (`01_high_level_analysis.ipynb`) provides an overview of the 
 - **Average General Programming YoE**: 12.7
 - **Average Dreyfus Python Skill Level**: 4.02
 - **Average estimated correct answers**: 12.2 out of 16
-- **Correlation between Python YoE and Dreyfus Skill Level**: 0.34 (weak positive correlation - somewhat surprising)
+- **Correlation between Python YoE and Dreyfus Skill Level**: 0.52 (moderate positive correlation - expected)
 - **Correlation between Python YoE and general programming YoE**: 0.55 (moderate positive correlation - expected)
 - **Correlation between Python YoE and estimated correct answers**: 0.24 (weak positive correlation - surprising)
 - **Correlation between general programming YoE and estimated correct answers**: 0.03 (very weak positive correlation -
   surprising)
+
+> **Note**: The p-values for the above correlations are reported in the respective notebooks. Most of them are
+> statistically significant (p < 0.05), except for some, namely General YoE vs. Estimated Correct Answers, and
+> General YoE vs. Actual Correct answers.
 
 ### 2. Detailed Analysis
 
