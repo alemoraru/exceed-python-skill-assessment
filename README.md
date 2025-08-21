@@ -142,7 +142,8 @@ answers:
     - C) You must assign the result of `.remove()` to a new variable
     - D) The value of `10` is not found in `my_list`, so it can't be removed
 
-  > **Correct Answers**: while the original question only had option **D** as correct, we considered both **B** and **D** as correct
+  > **Correct Answers**: while the original question only had option **D** as correct, we considered both **B**
+  > and **D** as correct
 
 - **Q9.5** You're writing a program that uses a dictionary to store user preferences. You try to access a key that you
   _know_ exists in the dictionary, but your code throws a `KeyError`. What is the MOST likely reason for this, given the
@@ -154,7 +155,8 @@ answers:
       different than expected
     - D) Dictionaries can sometimes fail to locate keys due to internal hashing bugs or collisions
 
-  > **Correct Answers**: while the original question only had option **C** as correct, we considered both **A** and **C** as correct
+  > **Correct Answers**: while the original question only had option **C** as correct, we considered both **A**
+  > and **C** as correct
 
 ### 5. Conclusion
 
@@ -232,6 +234,12 @@ survey is the following:
 | Q9.5        | 	0.76      | 	0.30                |
 | Q10.1       | 	0.87      | 	0.45                |
 
+> **Note**: For checking the p-value of the pointbiserial correlation that we used to compute
+> the discriminative index, check the notebook `02_detailed_analysis.ipynb`. For brevity,
+> we will not include the p-values here, but most of the questions have a p-value < 0.05,
+> except `Q8.2`, `Q9.5`, and `Q10.1`. For these questions, we did not have better alternatives, so we kept them in
+> the final set.
+
 ---
 
 ## 🏃🏻 Running the notebooks
@@ -273,7 +281,7 @@ survey is the following:
 
 This project was developed as part of the EXCEED MSc Thesis project at Technische Universiteit Delft. As such,
 contributions of any sort will not be accepted. This repository is provided for replication and educational purposes
-ONLY. Since this was used as part of our pilot study to find an alternative Python skill-level measurement, it is 
+ONLY. Since this was used as part of our pilot study to find an alternative Python skill-level measurement, it is
 NOT intended for further development or contributions.
 
 ---
